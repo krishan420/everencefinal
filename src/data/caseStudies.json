@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "when-crm-data-leaks-threatened-a-real-estate-brand",
+    "title": "When CRM Data Leaks Threatened a Real Estate Brand",
+    "industry": "REAL ESTATE COMPANY ",
+    "bannerVideo": "/coursesBgImages/abtf2.mp4",
+    "topImage": "/industriesimg/realstate.jpg",
+
+    "caseFlow": [
+      {
+        "problemTitle": "Problem Statement 1:",
+        "problemDescription": "Such companies face significant challenges with the leakage of customer data originating from the Customer Relationship Management (CRM) and pre-sales departments. This breach compromises sensitive customer information, potentially leading to loss of trust, legal ramifications, and financial losses. The unauthorized access and dissemination of this data undermine the company's reputation and competitiveness in the market.",
+        "solutionTitle": "Proposed Solution 1",
+        "solutionDescription": "To address the issue of data leakage, the company will implement mystery shopping initiatives alongside a comprehensive solution. Mystery shopping involves deploying undercover evaluators to assess adherence to data security protocols and identify potential loopholes in the CRM and pre-sales departments. Simultaneously, a randomized forensic audit of the department will be conducted, structuring data flow via Data Loss Prevention (DLP) software for both computer and mobile devices. Additionally, monthly network assessments and forensic audits will be performed to ensure robust security measures are in place."
+      },
+      {
+        "problemTitle": "Problem Statement 2:",
+        "problemDescription": "The absence of adequate employee training on data handling protocols is leading to negligence, resulting in internal data leakage and a lack of proper cyber hygiene within the organization. Furthermore, employees are unaware of the consequences of data leakage.",
+        "solutionTitle": "Proposed Solution 2:",
+        "solutionDescription": "A comprehensive cyber hygiene and cyber awareness training programs to ensure that employees are equipped with the knowledge and skills needed to maintain a secure digital environment. These programs include regular sessions on Cyber Hygiene, Cyber Crime Awareness, and Internal Data Leakages, conducted on a monthly basis in batches. By offering these training sessions, we empower our employees to understand the importance of data security and the potential risks."
+      },
+      {
+        "problemTitle": "Problem Statement 3:",
+        "problemDescription": "The absence of non-disclosure agreements (NDAs) between employers and employees can be detrimental to an organization in the event of data leakage. Law enforcement may not pursue legal action (FIR) due to the lack of an NDA between the employer and employee.",
+        "solutionTitle": "Proposed Solution 3:",
+        "solutionDescription": "To address this issue, we conduct training sessions for employees on data leakage, emphasizing its impact on both the organization and the individual employee. At the conclusion of these training sessions, we will facilitate the creation of NDAs between the employer and employee, using a techno-legal approach. Employees will be educated on the importance of NDAs and the consequences of data leakage, and the agreements will be signed in a respectful and amicable manner. This ensures that employees understand the risks involved and are committed to maintaining confidentiality and data security."
+      }
+    ],
+  "cherryDescription": "In any corporate environment, the lack of structured financial transactional data coupled with rapid technological advancements poses a significant risk to the business owner as this valuable information falling into the wrong hands will potentially result in extortion and detrimental consequences. Our approach to solve this issue is implementing a monthly data flow structure utilizing licensed Israeli Forensic Tools. This not only facilitates comprehensive data management but also enables the forensic examination and removal of unwanted problematic data ensuring complete security and integrity of that data.",
+
+    "scopeOfWork": [
+      "Conduct forensic audits to investigate data leakage and employee nexus.",
+      "Perform background checks and lifestyle checks of employees.",
+      "Implement mystery shopping with proper client-bared information and follow-up end-to-end.",
+      "Our company conducts regular vulnerability assessments to identify and address potential weaknesses in our systems and infrastructure.",
+      "Our company conducts both random audits and notice period audits with the help of Israeli Forensic Licensed tools to ensure compliance and effectiveness in your operations and processes.",
+      "Our company performs thorough gap assessments and addresses non-compliance to ensure adherence to regulatory standards and best practices.",
+      "Our company provides comprehensive cyber hygiene and cyber awareness training programs to ensure that employees are equipped with the knowledge and skills needed to maintain a secure digital environment."
+    ]
+  },
+  {
+  "slug": "securing-trust-in-a-high-value-diamond-ecosystem",
+  "title": "Securing Trust in a High-Value Diamond Ecosystem",
+  "industry": "DIAMOND INDUSTRY",
+  "bannerVideo": "/coursesBgImages/abtf2.mp4",
+  "topImage": "/industriesimg/dimond.jpg",
+
+  "caseFlow": [
+    {
+      "problemTitle": "Problem Statement 1: Ransomware Attacks Disrupting Operations",
+      "problemDescription": "Ransomware attacks target high-value data such as exclusive jewelry designs, confidential client lists, CRM databases, and financial records. These attacks can paralyze production, delay transactions, and expose trade secrets, resulting in severe financial and reputational losses.",
+      "solutionTitle": "Proposed Solution 1",
+      "solutionDescription": "Implement a multi-layered cybersecurity defense including a Data Shielding System, next-generation endpoint protection, real-time encrypted backups, and deep forensic audits to trace and eliminate vulnerabilities while ensuring instant business recovery."
+    },
+    {
+      "problemTitle": "Problem Statement 2: Insider Threats & Confidential Data Leaks",
+      "problemDescription": "Employees or associates may intentionally or unintentionally leak confidential data such as exclusive design blueprints, supplier information, and high-value transaction records, leading to counterfeiting, business loss, and extortion.",
+      "solutionTitle": "Proposed Solution 2",
+      "solutionDescription": "Deploy an Employee Trust & Security Framework using behavior analytics, access control restrictions, AI-driven risk assessments, forensic monitoring, and structured cybersecurity awareness training to prevent internal data leaks."
+    },
+    {
+      "problemTitle": "Problem Statement 3: High-Value Financial Transactions at Risk",
+      "problemDescription": "The industry handles multi-million-dollar transactions daily, making it vulnerable to fraud, data breaches, and unauthorized leaks. Lack of legally binding agreements reduces accountability and delays detection of fraud.",
+      "solutionTitle": "Proposed Solution 3",
+      "solutionDescription": "Introduce a Techno-Legal Compliance System with blockchain-enabled transaction security, advanced financial surveillance for anomaly detection, and legally binding NDAs to ensure traceability, accountability, and legal protection."
+    },
+    {
+      "problemTitle": "Problem Statement 4: Dark Web Data Trading & Corporate Espionage",
+      "problemDescription": "Hackers target confidential data such as client lists, CRM data, pricing strategies, and supply chain details and sell them on the dark web, enabling counterfeit markets and unfair competition.",
+      "solutionTitle": "Proposed Solution 4",
+      "solutionDescription": "Implement continuous dark web surveillance, AI-driven threat modeling, and advanced forensic investigations to detect leaked data, identify breach sources, and enable legal action against perpetrators."
+    },
+    {
+      "problemTitle": "Problem Statement 5: Unsecured Digital Communication Channels",
+      "problemDescription": "Unencrypted emails, messaging apps, and outdated communication systems expose sensitive negotiations and financial dealings to interception and manipulation by cybercriminals.",
+      "solutionTitle": "Proposed Solution 5",
+      "solutionDescription": "Deploy end-to-end encrypted communication systems, secure collaboration tools, enterprise-grade secure email solutions, and zero-trust authentication protocols to protect confidential business communications."
+    }
+  ],
+
+  "cherryDescription": "In the diamond industry, unstructured financial and transactional data combined with rapid technological advancement creates significant risks such as extortion, fraud, counterfeiting, and business loss. We implement a monthly data flow structure using licensed Israeli forensic tools to ensure comprehensive data management, forensic examination, and removal of problematic data. With 24/7 monitoring, AI-driven alerts, and continuous forensic audits, we secure your data tighter than a vault—ensuring integrity, confidentiality, and complete peace of mind.",
+
+  "scopeOfWork": [
+    "Conduct forensic audits to detect and investigate data breaches, insider threats, and unauthorized access to confidential business information.",
+    "Perform notice period audits to ensure employees do not access or transfer company data after resignation, with full activity tracking and trace logs.",
+    "Execute random monthly cyber audits across Accounts, Marketing, Design, CRM, Manufacturing, and Intellectual Property departments.",
+    "Perform background checks and lifestyle assessments of key employees to identify potential internal risks.",
+    "Conduct regular vulnerability assessments to identify and mitigate weaknesses in systems and infrastructure.",
+    "Perform random and notice period audits using licensed Israeli forensic tools to ensure compliance and effectiveness of security measures.",
+    "Conduct gap assessments and address non-compliance to meet regulatory standards and best practices.",
+    "Use Israeli forensic tools for structured data management, forensic examination, and removal of problematic data.",
+    "Provide comprehensive cyber hygiene and cyber awareness training programs for employees.",
+    "Secure network systems with 24/7 surveillance and real-time alerts for suspicious or unauthorized activities."
+  ]
+},
+
+{
+  "slug": "protecting-intellectual-property-inside-a-connected-factory",
+  "title": "Protecting Intellectual Property Inside a Connected Factory ",
+  "industry": "Manufacturing Company",
+  "bannerVideo": "/coursesBgImages/abtf2.mp4",
+  "topImage": "/industriesimg/manufacturing.jpg",
+
+  "caseFlow": [
+  ],
+
+  "categoryWiseCaseStudy": [
+    {
+      "category": "External Threats",
+      "problemtitlec":"",
+      "problem": "Cyberattacks like ransomware are a huge threat.",
+      "solution": "To Counter these periodic assessments using a digital forensic approach where we use our Israeli Licensed forensic tools to identify gaps in the existing IT infrastructure and give the business owner a threat assessment report and mitigation plan."
+    },
+    {
+      "category": "Insider Threats",
+      "problem": "The main threat is the organization's IPs that can be design, drawings, customer data. This information is critical as if this info gets leaked, the entire organization can face a dire impact.",
+    "solution": ["To counter this we can do Periodic audits:",
+    "(a) Random audits Notice Period audits--- See Annexure ",
+    "(b) If any evidence found we can deep dive with proper due diligence using our on-field manpower doing lifestyle checks and background checks, Discrete Enquiries. Everence has the potential to do deep dive core intelligence."
+    ]  
+    },
+    {
+      "category": "IoT Device Security",
+      "problem": "A manufacturing companies using IoT devices, if the IOT devices get ",
+      "solution": "Random IoT device forensic assessments are conducted to secure data flow in alignment with IT security guidelines."
+    },
+    {
+      "category": "SOPs ",
+      "problem": "Many of the organisations do not have proper SOPs and policies in place, and even if they do, there is no mechanism to monitor it.",
+     "solution": ["To counter this we can do Periodic audits:",
+    "• Everence can structure your SOPs and policies as per the data flow, since after doing forensics, we get a clear picture of the data flow pattern.",
+    "• If there are already existing policies, we can audit them by doing forensics of the critical devices, once we get the report, we can compare to the existing IT policies and create a non-compliance Report. This can be generated periodically and mitigated, this will reduce the gaps."
+    ]   
+    },
+    {
+      "category": "Cyber Hygiene Awareness Training",
+      "problem": "Poor cyber hygiene practices such as clicking malicious links expose organizations to cyberattacks, data breaches, and financial losses.",
+      "solution": "Spoof email exercises are conducted to assess employee awareness, followed by customized cyber hygiene training programs."
+    },
+    {
+      "category": "Techno-Legal Documentation (NDAs)",
+      "problem": "The absence of non-disclosure agreements (NDAs) between employers and employees can be detrimental to an organization in the event of data leakage. Law enforcement may not pursue legal action (FIR) due to the lack of an NDA between the employer and employee.",
+      "solution": ["• To address this issue, we conduct training sessions for employees on data leakage, emphasizing its impact on both the organization and the individual employee. ",
+    "• At the conclusion of these training sessions, we will facilitate the creation of NDAs between the employer and employee, using a techno-legal approach. ",
+    "• Employees will be educated on the importance of NDAs and the consequences of data leakage, and the agreements will be signed in a respectful and amicable manner. This ensures that employees understand the risks involved and are committed to maintaining confidentiality and data security."
+    ]  
+    }
+  ],
+
+  "cherryDescription": "",
+
+  "scopeOfWork": [
+     ]
+}
+
+
+
+]

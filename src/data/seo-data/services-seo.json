@@ -1,0 +1,3063 @@
+{
+  "digital-forensic-assessments": {
+    "pageUrl": "https://everence.com/services/digital-forensic-assessments",
+    "metaTitle": "Digital Forensic Assessments Services in India ",
+    "metaDescription": "Everence offers Digital Forensic Assessments Services in India, helping businesses identify cyber threats, preserve digital evidence, and strengthen security investigations.",
+     "metaKeywords": "Digital Forensic Assessments services in India",
+    "canonicalTag": "https://everence.com/services/digital-forensic-assessments",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/digital-forensic-assessments#webpage",
+      "url": "https://everence.io/services/digital-forensic-assessments",
+      "name": "Digital Forensic Assessments in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/digital-forensic-assessments#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/digital-forensic-assessments#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/digital-forensic-assessments#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Digital Forensic Assessments",
+          "item": "https://everence.io/services/digital-forensic-assessments"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/digital-forensic-assessments#service",
+      "name": "Digital Forensic Assessments",
+      "url": "https://everence.io/services/digital-forensic-assessments",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/digital-forensic-assessments",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/digital-forensic-assessments#itemlist",
+      "name": "Digital Forensic Assessment Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Incident Detection Analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Digital Evidence Collection"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fraud Investigation Support"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "System Activity Analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Risk Identification & Reporting"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/digital-forensic-assessments#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How often should a digital forensic assessment be conducted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most organisations conduct assessments annually or after major system changes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this the same as a vulnerability scan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is broader and focuses on real-world exposure rather than just technical flaws."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will this disrupt operations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Assessments are designed to run alongside business operations with minimal impact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should see the results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Findings are structured for leadership, IT, legal, and risk teams."
+          }
+        }
+      ]
+    }
+  ]
+}
+  },
+ "device-forensics": {
+  "pageUrl": "https://everence.com/services/device-forensics",
+  "metaTitle": "Device Forensic Services in India ",
+  "metaDescription": "Everence provides Device Forensic Services in India, offering mobile, computer, and digital device investigations, data recovery, and forensic evidence analysis.",
+  "metaKeywords": "Device Forensic Services in India",
+  "canonicalTag": "https://everence.com/services/device-forensics",
+  "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/device-forensics#webpage",
+      "url": "https://everence.io/services/device-forensics",
+      "name": "Device Forensics Services in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/device-forensics#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/device-forensics#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/device-forensics#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Device Forensics",
+          "item": "https://everence.io/services/device-forensics"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/device-forensics#service",
+      "name": "Device Forensics Services",
+      "url": "https://everence.io/services/device-forensics",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/device-forensics",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/device-forensics#itemlist",
+      "name": "Device Forensics Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Computer Forensics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Insider Threat Investigation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Financial Forensic Investigation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Data Recovery & Analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Digital Evidence Preservation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/device-forensics#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are computer forensic services in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Computer forensic services in India collect, analyze, and preserve digital evidence from devices to investigate cybercrimes and insider threats."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is insider threat investigation in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Insider threat investigation in India identifies risks from employees by analyzing device activity, data access, and communication patterns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is financial forensic investigation in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Financial forensic investigation in India examines digital and financial data to detect fraud, trace transactions, and support legal cases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do computer forensic services help in cyber investigations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They recover data, analyze system activity, and identify cyber threats to support investigations and prevent future incidents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is device forensics needed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When information stored on a device is relevant to an investigation or review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can deleted information still be recovered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, yes, depending on how the device has been used since deletion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the examination change the data on the device?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Forensic methods are designed to preserve data exactly as it exists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who typically uses the findings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Investigators, legal teams, and senior decision-makers."
+          }
+        }
+      ]
+    }
+  ]
+}
+},
+  "due-diligence": {
+    "pageUrl": "https://everence.com/services/due-diligence",
+    "metaTitle": "Due Diligence Services in India ",
+    "metaDescription": " Everence provides Due Diligence Services in India, helping businesses assess risks, verify information, evaluate compliance, and make informed investment decisions.",
+    "metaKeywords": "Due Diligence Services in India",
+    "canonicalTag": "https://everence.com/services/due-diligence",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/due-diligence#webpage",
+      "url": "https://everence.io/services/due-diligence",
+      "name": "Due Diligence Services in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/due-diligence#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/due-diligence#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/due-diligence#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Due Diligence",
+          "item": "https://everence.io/services/due-diligence"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/due-diligence#service",
+      "name": "Due Diligence Services",
+      "url": "https://everence.io/services/due-diligence",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/due-diligence",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/due-diligence#itemlist",
+      "name": "Due Diligence Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Corporate Due Diligence"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Employee Background Verification"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pre Matrimonial Investigation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Asset Tracing Services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Background Check Services"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/due-diligence#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is due diligence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Due diligence is the process of investigating and verifying information about a person, company, or asset before making a decision. It helps reduce risks, prevent fraud, and ensure informed decisions in business transactions, hiring, investments, or legal matters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is corporate due diligence in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Corporate due diligence in India involves assessing a company’s financial, legal, and operational records to identify potential risks. It is used during mergers, acquisitions, partnerships, or investments to ensure compliance and make informed business decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does employee background verification work in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Employee background verification in India validates a candidate’s identity, employment history, education, and criminal records. It helps organizations ensure safe hiring, prevent fraudulent practices, and maintain workplace integrity and compliance with regulatory standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is pre matrimonial investigation in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pre matrimonial investigation in India verifies the background of a prospective marriage partner. It includes checking personal, financial, and social details to ensure transparency, prevent deception, and reduce risks in matrimonial decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are asset tracing services in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Asset tracing services in India identify and track hidden or undisclosed assets of individuals or companies. They are used in fraud investigations, legal disputes, and financial recovery cases to locate, verify, and evaluate property or resources."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are background check services in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Background check services in India involve verifying personal, professional, and financial information of individuals. This ensures authenticity, reduces hiring or partnership risks, and provides businesses and organizations with reliable information before onboarding employees or engaging with clients."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should digital due diligence be carried out?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before any merger, acquisition, partnership, or investment is finalised."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is this different from financial or legal due diligence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It focuses on technology, security, and data risk that other reviews often miss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can digital findings influence deal value or structure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Digital risk frequently has direct financial and operational implications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who typically reviews the outcomes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Findings are prepared for leadership, investment teams, legal, and risk stakeholders."
+          }
+        }
+      ]
+    }
+  ]
+    }
+  },
+  "cloud-it-consulting": {
+    "pageUrl": "https://everence.com/services/cloud-it-consulting",
+    "metaTitle": "Cloud Consulting Services in India | IT Consulting Services in India ",
+    "metaDescription": "Everence provides Cloud Consulting Services in India and IT Consulting Services in India, helping businesses optimize cloud environments, strengthen security, and drive digital transformation.",
+    "metaKeywords": "Cloud Consulting Services in India, IT consulting services in India",
+    "canonicalTag": "https://everence.com/services/cloud-it-consulting",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/cloud-it-consulting#webpage",
+      "url": "https://everence.io/services/cloud-it-consulting",
+      "name": "Cloud & IT Consulting Services in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/cloud-it-consulting#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/cloud-it-consulting#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/cloud-it-consulting#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cloud & IT Consulting",
+          "item": "https://everence.io/services/cloud-it-consulting"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/cloud-it-consulting#service",
+      "name": "Cloud & IT Consulting Services",
+      "url": "https://everence.io/services/cloud-it-consulting",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/cloud-it-consulting",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/cloud-it-consulting#itemlist",
+      "name": "Cloud & IT Consulting Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Cloud Migration Consulting"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IT Strategy & Advisory"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IT Infrastructure Consulting"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hybrid & Multi-Cloud Solutions"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Cloud Security & Optimization"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/cloud-it-consulting#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is cloud IT consulting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cloud IT consulting helps businesses migrate, implement, and manage cloud solutions effectively. It includes evaluating cloud platforms, optimizing costs, ensuring security, and integrating cloud services with existing IT infrastructure to support business scalability and flexibility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are IT consulting services in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IT consulting services in India help businesses optimize technology strategies, implement software and hardware solutions, and improve IT operations. These services guide organizations in choosing the right technologies to enhance productivity, reduce costs, and support long-term growth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do IT advisory services help businesses in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IT advisory services in India provide expert guidance on technology strategy, digital transformation, and risk management. They help businesses make informed IT decisions, align infrastructure with business goals, enhance operational efficiency, and implement scalable and secure technology solutions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is IT infrastructure consulting and why is it important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IT infrastructure consulting focuses on designing, implementing, and managing an organization’s IT environment, including networks, servers, storage, and cloud solutions. It ensures reliable, secure, and scalable IT operations, helping businesses maintain performance and minimize downtime."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you support hybrid and multi cloud environments",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Most organisations operate mixed environments, and our approach reflects that reality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you assist before any cloud migration begins",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We often engage at the planning stage to reduce future exposure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is security handled separately from infrastructure design",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Security is integrated into architecture, access, and operational processes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide support after implementation",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We assist with governance, optimisation, and continuity post deployment."
+          }
+        }
+      ]
+    }
+  ]
+}
+  },
+  "audio-video-forensic-analysis": {
+    "pageUrl": "https://everence.com/services/audio-video-forensic-analysis",
+    "metaTitle": "Audio Forensic Analysis in India | Video Forensic Analysis in India ",
+    "metaDescription": " Everence provides Audio Forensic Analysis in India & Video Forensic Analysis in India, helping organizations verify authenticity, detect tampering, enhance digital evidence, and support investigations.",
+    "metaKeywords": "Audio Forensic analysis in India, Vdeo Forensic Analysis in India",
+    "canonicalTag": "https://everence.com/services/audio-video-forensic-analysis",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/audio-video-forensic-analysis#webpage",
+      "url": "https://everence.io/services/audio-video-forensic-analysis",
+      "name": "Audio & Video Forensic Analysis Services in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/audio-video-forensic-analysis#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/audio-video-forensic-analysis#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/audio-video-forensic-analysis#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Audio & Video Forensic Analysis",
+          "item": "https://everence.io/services/audio-video-forensic-analysis"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/audio-video-forensic-analysis#service",
+      "name": "Audio & Video Forensic Analysis",
+      "url": "https://everence.io/services/audio-video-forensic-analysis",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/audio-video-forensic-analysis",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/audio-video-forensic-analysis#itemlist",
+      "name": "Audio & Video Forensic Services",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Audio Forensic Analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Video Forensic Analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Deepfake Detection"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "CCTV & Mobile Footage Analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Audio Authentication & Enhancement"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/audio-video-forensic-analysis#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is audio forensic analysis in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Audio forensic analysis in India involves examining and authenticating audio recordings to detect tampering, verify voices, and extract crucial information. It is used in legal cases, investigations, and disputes to provide accurate and legally admissible evidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is video forensic analysis in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Video forensic analysis in India involves examining video footage to verify authenticity, enhance clarity, and detect tampering or manipulation. It helps law enforcement, legal teams, and organizations obtain credible evidence for investigations and court proceedings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is deepfake video detection in India and why is it necessary?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deepfake video detection in India uses AI and forensic tools to identify digitally manipulated videos. It prevents fraud, misinformation, identity misuse, and ensures integrity of visual evidence for legal, corporate, or security purposes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is video forensic analysis used to validate CCTV or mobile footage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Video forensic analysis validates CCTV or mobile footage by checking timestamps, frame integrity, compression artifacts, and motion patterns. Analysts enhance video quality, detect edits, and provide verified visual evidence for investigations and legal use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do experts detect tampered or manipulated audio recordings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Experts detect tampered audio by analyzing waveform patterns, background noise inconsistencies, and metadata. Advanced forensic tools identify edits, splices, or synthetic voices, providing reliable evidence for investigations or court proceedings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should audio or video forensic analysis be considered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When there is doubt about a recording’s authenticity, integrity, or meaning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can all forms of manipulation be detected?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not in every case, but careful analysis often reveals inconsistencies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does enhancement alter the original recording?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Enhancements are applied cautiously and documented."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who typically reviews the findings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Investigators, legal teams, and decision-makers."
+          }
+        }
+      ]
+    }
+  ]
+}
+  },
+   "social-media-monitoring": {
+    "pageUrl": "https://everence.com/services/social-media-monitoring",
+    "metaTitle": "Social Media Monitoring Services in India ",
+    "metaDescription": " Everence provides Social Media Monitoring Services in India, helping organizations monitor brand mentions, identify emerging risks, analyze audience sentiment, and strengthen online reputation.",
+    "metaKeywords": "Social Media Monitoring Services in India",
+    "canonicalTag": "https://everence.com/services/social-media-monitoring",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/social-media-monitoring#webpage",
+      "url": "https://everence.io/services/social-media-monitoring",
+      "name": "Social Media Monitoring Services in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/social-media-monitoring#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/social-media-monitoring#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/social-media-monitoring#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Social Media Monitoring",
+          "item": "https://everence.io/services/social-media-monitoring"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/social-media-monitoring#service",
+      "name": "Social Media Monitoring Services",
+      "url": "https://everence.io/services/social-media-monitoring",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/social-media-monitoring",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/social-media-monitoring#itemlist",
+      "name": "Social Media Monitoring Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Brand Monitoring"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Online Reputation Monitoring"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Competitor Monitoring"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Social Media Listening"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Risk & Threat Detection"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/social-media-monitoring#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is social media monitoring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Social media monitoring is the process of tracking, analyzing, and responding to conversations, mentions, and activities related to a brand across social media platforms and online channels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are brand monitoring services in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand monitoring services in India involve tracking online mentions, customer feedback, and digital conversations about a brand across social media, websites, and forums to manage reputation and detect risks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are brand monitoring services important for businesses in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand monitoring services help businesses in India understand customer sentiment, identify reputation risks, track competitors, and respond quickly to online discussions about their brand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does social media monitoring help manage online reputation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Social media monitoring helps businesses detect negative mentions, respond to customer feedback, and maintain a positive brand image by actively managing online conversations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What platforms are included in social media monitoring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Social media monitoring typically includes platforms such as Facebook, Instagram, LinkedIn, X (Twitter), YouTube, forums, blogs, and other digital channels where brand-related discussions occur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is social media monitoring only useful during a crisis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Ongoing awareness is more effective than reactive monitoring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does every mention require action?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Most insights support awareness rather than direct response."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can impersonation be identified early?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, yes. Consistent monitoring improves early detection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who typically reviews the insights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Leadership, risk, communications, and legal teams."
+          }
+        }
+      ]
+    }
+  ]
+}
+  },
+  "e-discovery": {
+    "pageUrl": "https://everence.com/services/e-discovery",
+    "metaTitle": "E-Discovery Services in India | Email Fraud & Messaging Fraud Investigation ",
+    "metaDescription": " Everence provides E-Discovery Services in India, helping organizations investigate email fraud, messaging platform fraud, collect digital evidence, and support legal cases.",
+    "metaKeywords": "Email Frauds services in india, eDiscovery Services in India, Messaging platform fraud Investigation in india, Email Fraud Investigation in india",
+    "canonicalTag": "https://everence.com/services/e-discovery",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/e-discovery#webpage",
+      "url": "https://everence.io/services/e-discovery",
+      "name": "e-Discovery Services in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/e-discovery#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/e-discovery#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/e-discovery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "e-Discovery",
+          "item": "https://everence.io/services/e-discovery"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/e-discovery#service",
+      "name": "e-Discovery Services",
+      "url": "https://everence.io/services/e-discovery",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/e-discovery",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/e-discovery#itemlist",
+      "name": "e-Discovery Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Electronic Data Collection"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Email Investigation & Analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Metadata Analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Fraud & Business Email Compromise Investigation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Legal Evidence Preservation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/e-discovery#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is e-discovery and how does it work in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E-discovery in India is the process of identifying, collecting, preserving, and analyzing electronic data for legal or corporate investigations. It helps organizations investigate fraud, compliance issues, or business compromise emails, ensuring that electronic evidence is secure, authentic, and legally admissible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is business compromise email in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Business compromise email in India is a cyber fraud technique where attackers impersonate company executives or vendors through email to trick organizations into transferring funds or sharing sensitive information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does e-discovery help investigate business compromise email in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E-discovery helps investigators collect and analyze email communications, metadata, and digital records to identify fraudulent messages and trace the origin of business email compromise attacks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do e-discovery services support legal or corporate investigations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E-discovery services collect, analyze, and preserve electronic records, detect fraudulent activities like business compromise emails, and provide legally admissible evidence for corporate, regulatory, or legal investigations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should e-Discovery begin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As soon as a legal, regulatory, or internal matter is identified."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is e-Discovery limited to litigation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is also required for regulatory inquiries and internal investigations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is data integrity maintained during collection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Through controlled processes that preserve accuracy and traceability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who typically reviews the outputs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legal teams, compliance functions, and investigation stakeholders."
+          }
+        }
+      ]
+    }
+  ]
+}
+  },
+  "reputation-management": {
+    "pageUrl": "https://everence.com/services/reputation-management",
+    "metaTitle": "Reputation Management Company in India ",
+    "metaDescription": " Everence is a leading Reputation Management Company in India, helping organizations monitor online presence, manage reputation risks, remove harmful content, and strengthen brand trust.",
+    "metaKeywords": "Reputation Management Company in India",
+    "canonicalTag": "https://everence.com/services/reputation-management",
+    "schema": 
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/reputation-management#webpage",
+      "url": "https://everence.io/services/reputation-management",
+      "name": "Reputation Management Services in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/reputation-management#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/reputation-management#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/reputation-management#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reputation Management",
+          "item": "https://everence.io/services/reputation-management"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/reputation-management#service",
+      "name": "Reputation Management Services",
+      "url": "https://everence.io/services/reputation-management",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/reputation-management",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/reputation-management#itemlist",
+      "name": "Reputation Management Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Online Reputation Monitoring"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Identity Theft Investigation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Content Removal & Suppression"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brand Protection & Risk Detection"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Digital Reputation Recovery"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/reputation-management#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is reputation management and why is it important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reputation management helps businesses and individuals monitor, protect, and improve their online and offline reputation. It includes managing reviews, social mentions, and media coverage to maintain trust, credibility, and a positive brand image, while mitigating negative publicity or fraudulent activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is identity theft investigation in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Identity theft investigation in India involves analyzing cases where personal or financial information is misused for fraudulent activities. Investigators examine digital evidence, online accounts, and transaction records to identify the source of identity theft."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can reputation management remove false or negative content online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, experts identify harmful content, request removal from platforms, and correct misinformation to protect your brand or personal reputation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can reputation management help recover from identity theft in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reputation management monitors online activity, detects identity misuse, removes false content, and restores credibility for individuals and businesses in India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should reputation management begin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before issues escalate. Ongoing awareness is more effective than reactive fixes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this limited to social media?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It covers a wider digital landscape where reputational risk can emerge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can all reputational damage be undone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. Early detection helps limit long-term impact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who typically engages with the findings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Leadership, legal teams, and communications stakeholders."
+          }
+        }
+      ]
+    }
+  ]
+}
+  },
+    "proactive-reactive-digital-fraud-investigations": {
+    "pageUrl": "https://everence.com/services/proactive-reactive-digital-fraud-investigations",
+    "metaTitle": "Proactive & Reactive Digital Fraud Investigations in India ",
+    "metaDescription": "Everence provides Proactive & Reactive Digital Fraud Investigations in India, helping businesses detect, investigate, and mitigate cyber fraud with forensic expertise.",
+    "metaKeywords": "Proactive & Reactive Digital Fraud Investigations in India",
+    "canonicalTag": "https://everence.com/services/proactive-reactive-digital-fraud-investigations",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/proactive-reactive-digital-fraud-investigations#webpage",
+      "url": "https://everence.io/services/proactive-reactive-digital-fraud-investigations",
+      "name": "Proactive & Reactive Digital Fraud Investigations Services in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/proactive-reactive-digital-fraud-investigations#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/proactive-reactive-digital-fraud-investigations#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/proactive-reactive-digital-fraud-investigations#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Digital Fraud Investigations",
+          "item": "https://everence.io/services/proactive-reactive-digital-fraud-investigations"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/proactive-reactive-digital-fraud-investigations#service",
+      "name": "Proactive & Reactive Digital Fraud Investigations",
+      "url": "https://everence.io/services/proactive-reactive-digital-fraud-investigations",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/proactive-reactive-digital-fraud-investigations",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/proactive-reactive-digital-fraud-investigations#itemlist",
+      "name": "Digital Fraud Investigation Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Proactive Fraud Risk Assessment"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Reactive Fraud Investigation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cyber Security Assessment"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Cyber Security Health Check"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Incident Response & Digital Evidence Analysis"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/proactive-reactive-digital-fraud-investigations#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are proactive and reactive digital fraud investigations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Proactive and reactive digital fraud investigations involve identifying and analyzing fraudulent activities using both preventive and response-based approaches. Proactive investigations detect risks before fraud occurs, while reactive investigations analyze incidents after fraud has taken place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are cyber security assessment services in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cyber security assessment services in India evaluate an organization’s systems, networks, and security policies to identify vulnerabilities, detect potential cyber threats, and strengthen defenses against fraud and cyber attacks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a cyber security health check in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A cyber security health check in India is a comprehensive review of an organization’s cybersecurity posture, including system security, network protection, access controls, and risk exposure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do cyber security assessment services help prevent digital fraud?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cyber security assessment services help identify security gaps, monitor suspicious activities, and strengthen system defenses, reducing the risk of digital fraud, data breaches, and cyber attacks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a digital fraud investigation be initiated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As soon as irregular activity is suspected. Early assessment often limits financial and reputational damage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can investigations begin without full proof of fraud?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Many engagements begin with indicators rather than confirmed incidents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will investigations disrupt daily operations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Work is conducted alongside business operations with minimal disruption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who typically reviews the findings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reports are prepared for leadership, legal, compliance, and risk teams."
+          }
+        }
+      ]
+    }
+  ]
+}
+  },
+  "digital-compliance": {
+    "pageUrl": "https://everence.com/services/digital-compliance",
+    "metaTitle": "Digital Compliance Services in India ",
+    "metaDescription": " Everence provides Digital Compliance Services in India, helping organizations meet regulatory requirements, manage cyber risks, strengthen governance, and ensure compliance.",
+    "metaKeywords": "Digital Compliance Services in India",
+    "canonicalTag": "https://everence.com/services/digital-compliance",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91 9920314006",
+        "contactType": "customer service",
+        "areaServed": "IN"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence Digital Compliance & Cybersecurity Services",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/digital-compliance#webpage",
+      "url": "https://everence.io/services/digital-compliance",
+      "name": "Digital Compliance Services in India | Everence",
+      "description": " Everence provides Digital Compliance Services in India, helping organizations meet regulatory requirements, manage cyber risks, strengthen governance, and ensure compliance.",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/#service-compliance"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/#breadcrumb"
+      }
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Digital Compliance",
+          "item": "https://everence.io/services/digital-compliance"
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/#service-compliance",
+      "name": "Digital Compliance Services",
+      "description": "Digital compliance services in India ensure that organizations follow legal, regulatory, and cybersecurity standards through audits, monitoring, and risk management.",
+      "serviceType": "Cybersecurity Compliance & Risk Management",
+      "provider": {
+        "@id": "https://everence.io/#professionalservice"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "url": "https://everence.io/services/digital-compliance"
+    },
+
+    {
+      "@type": "Offer",
+      "@id": "https://everence.io/#offer-compliance",
+      "itemOffered": {
+        "@id": "https://everence.io/#service-compliance"
+      },
+      "availability": "https://schema.org/InStock",
+      "url": "https://everence.io/services/digital-compliance"
+    },
+
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/#related-services",
+      "name": "Related Compliance & Cybersecurity Services",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Cloud IT Consulting",
+          "url": "https://everence.io/services/cloud-it-consulting"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Digital Forensic Readiness Assessments",
+          "url": "https://everence.io/services/digital-forensic-readiness-assessments"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Proactive & Reactive Digital Fraud Investigations",
+          "url": "https://everence.io/services/proactive-reactive-digital-fraud-investigations"
+        }
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/#faq-compliance",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is digital compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Digital compliance is the process of ensuring that an organization’s digital systems, data handling practices, and online operations follow legal, regulatory, and cybersecurity standards to protect sensitive information and maintain security."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a cyber security compliance audit in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A cyber security compliance audit in India is an assessment that evaluates whether an organization’s cybersecurity systems, policies, and processes meet regulatory requirements and industry standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is digital compliance important for businesses in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Digital compliance helps businesses in India protect sensitive data, reduce cyber risks, avoid regulatory penalties, and build trust with customers and stakeholders."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can digital compliance help prevent cyber threats?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Digital compliance establishes policies, monitoring, and security controls that reduce vulnerabilities, prevent unauthorized access, and ensure secure data handling. Regular audits and compliance checks help organizations proactively detect and mitigate potential cyber threats."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should digital compliance be reviewed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regularly, and whenever systems, regulations, or operating models change."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is digital compliance only relevant for regulated industries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Any organisation using digital systems or handling data has compliance responsibilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will compliance reviews disrupt daily operations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reviews are planned to minimise disruption while providing clear insight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who typically reviews the findings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Outputs are prepared for leadership, legal, compliance, and risk teams."
+          }
+        }
+      ]
+    }
+
+  ]
+}
+  },
+   "training": {
+    "pageUrl": "https://everence.com/services/training",
+    "metaTitle": " Digital Forensic Training in India ",
+    "metaDescription": " Everence offers Digital Forensic Training in India, helping professionals develop expertise in cyber investigations, digital evidence collection, forensic analysis, and incident response.",
+    "metaKeywords": "Digital Forensic Training in India",
+    "canonicalTag": "https://everence.com/services/training",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91 9920314006",
+        "contactType": "customer service",
+        "areaServed": "IN"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence Cyber Security Training & Awareness Services",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/training#webpage",
+      "url": "https://everence.io/services/training",
+      "name": "Cyber Security Training Services in India | Everence",
+      "description": "Cyber security training services in India help employees identify threats and improve organizational security.",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/#service-training"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/#breadcrumb"
+      }
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Training",
+          "item": "https://everence.io/services/training"
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/#service-training",
+      "name": "Cyber Security Training",
+      "description": "Cyber security training services in India help organizations educate employees about threats and improve security practices.",
+      "serviceType": "Cyber Security Training & Awareness",
+      "provider": {
+        "@id": "https://everence.io/#professionalservice"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "url": "https://everence.io/services/training"
+    },
+
+    {
+      "@type": "Offer",
+      "@id": "https://everence.io/#offer-training",
+      "itemOffered": {
+        "@id": "https://everence.io/#service-training"
+      },
+      "availability": "https://schema.org/InStock",
+      "url": "https://everence.io/services/training"
+    },
+
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/#related-services",
+      "name": "Related Services",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Digital Compliance",
+          "url": "https://everence.io/services/digital-compliance"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cloud IT Consulting",
+          "url": "https://everence.io/services/cloud-it-consulting"
+        }
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/#faq-training",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is cyber security training important for employees in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cyber security training helps employees in India recognize threats such as phishing, malware, and social engineering attacks, reducing the risk of data breaches and improving overall organizational security."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What topics are covered in cyber security training for employees services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cyber security training typically covers phishing awareness, password security, safe internet usage, email security, data protection practices, and identifying common cyber threats."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does cyber security training help prevent cyber attacks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cyber security training teaches employees how to identify suspicious activities, avoid malicious links or attachments, and follow secure practices that prevent attackers from gaining access to systems."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should be involved in training?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Employees, technical teams, and leadership all play an important role."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is training only relevant for security teams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Early decisions during incidents are often made by non-technical staff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should training be conducted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regularly, and whenever systems, roles, or exposure change."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can training be tailored to our organisation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Sessions are designed around the organisation’s environment and specific needs."
+          }
+        }
+      ]
+    }
+
+  ]
+}
+  },
+  "digital-forensic-readiness-assessments": {
+    "pageUrl": "https://everence.com/services/digital-forensic-readiness-assessments",
+    "metaTitle": " Digital Forensic Readiness Assessment Services in India",
+    "metaDescription": "Everence offers Digital Forensic Readiness Assessment Services in India to help organizations prepare for cyber incidents, preserve evidence, and improve response capabilities.",
+    "metaKeywords": "Digital Forensic Readiness Assessment Services in India",
+    "canonicalTag": "https://everence.com/services/digital-forensic-readiness-assessments",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/digital-forensic-readiness-assessments#webpage",
+      "url": "https://everence.io/services/digital-forensic-readiness-assessments",
+      "name": "Digital Forensic Readiness Assessments in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/digital-forensic-readiness-assessments#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/digital-forensic-readiness-assessments#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/digital-forensic-readiness-assessments#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Digital Forensic Readiness Assessments",
+          "item": "https://everence.io/services/digital-forensic-readiness-assessments"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/digital-forensic-readiness-assessments#service",
+      "name": "Digital Forensic Readiness Assessments",
+      "url": "https://everence.io/services/digital-forensic-readiness-assessments",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/digital-forensic-readiness-assessments",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/digital-forensic-readiness-assessments#itemlist",
+      "name": "Digital Forensic Readiness Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Forensic Readiness Assessment"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Incident Preparedness Planning"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Evidence Collection Strategy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Risk & Compliance Alignment"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Process & System Readiness Review"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/digital-forensic-readiness-assessments#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When should a digital forensic readiness assessment take place?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before an incident occurs and whenever systems or processes change."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this different from incident response services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Readiness focuses on preparation, while incident response begins after an event."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does readiness reduce investigation effort?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Prepared environments typically shorten investigation time and reduce cost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this relevant for organisations operating in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. As scrutiny increases, forensic readiness has become increasingly important."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+  },
+
+  "digital-forensic-incident-response": {
+    "pageUrl": "https://everence.com/services/digital-forensic-incident-response",
+    "metaTitle": " Digital Forensic Incident Response Services in India",
+    "metaDescription": "Everence provides Digital Forensic Incident Response Services in India, helping organizations investigate cyber incidents, preserve evidence, contain threats, and recover quickly.",
+    "metaKeywords": "Digital Forensic Incident Response Services in india",
+    "canonicalTag": "https://everence.com/services/digital-forensic-incident-response",
+    "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://everence.io/#organization",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "logo": "https://everence.io/homebg/logo.png",
+      "telephone": "+91 9920314006",
+      "sameAs": [
+        "https://in.linkedin.com/company/everence-technologies"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://everence.io/#professionalservice",
+      "name": "Everence",
+      "url": "https://everence.io/",
+      "telephone": "+91 9920314006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "508, The Summit Business Park, Andheri (East)",
+        "addressLocality": "Mumbai",
+        "postalCode": "400093",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://everence.io/#website",
+      "url": "https://everence.io/",
+      "name": "Everence",
+      "publisher": {
+        "@id": "https://everence.io/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://everence.io/services/digital-forensic-incident-response#webpage",
+      "url": "https://everence.io/services/digital-forensic-incident-response",
+      "name": "Digital Forensic Incident Response (DFIR) Services in India - Everence",
+      "isPartOf": {
+        "@id": "https://everence.io/#website"
+      },
+      "about": {
+        "@id": "https://everence.io/services/digital-forensic-incident-response#service"
+      },
+      "breadcrumb": {
+        "@id": "https://everence.io/services/digital-forensic-incident-response#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://everence.io/services/digital-forensic-incident-response#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://everence.io/home"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://everence.io/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Digital Forensic Incident Response",
+          "item": "https://everence.io/services/digital-forensic-incident-response"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://everence.io/services/digital-forensic-incident-response#service",
+      "name": "Digital Forensic Incident Response (DFIR)",
+      "url": "https://everence.io/services/digital-forensic-incident-response",
+      "provider": {
+        "@id": "https://everence.io/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://everence.io/services/digital-forensic-incident-response",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://everence.io/services/digital-forensic-incident-response#itemlist",
+      "name": "DFIR Services List",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Incident Detection & Analysis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Digital Evidence Preservation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Threat Investigation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "System Recovery Support"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Post-Incident Reporting"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://everence.io/services/digital-forensic-incident-response#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When should digital forensic incident response begin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As soon as there is a credible indication that something may be wrong."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is this different from standard incident response?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DFIR treats evidence preservation and investigation as part of the response, not an afterthought."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can recovery happen while the investigation continues?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but recovery is guided carefully to avoid losing critical information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this relevant for organisations operating in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. With rising incidents and scrutiny, DFIR services have become increasingly essential."
+          }
+        }
+      ]
+    }
+  ]
+}
+  },
+  "forensic-malware-investigation": {
+  "pageUrl": "https://everence.com/services/forensic-malware-investigation",
+  "metaTitle": "Forensic Malware Investigation Services in India",
+  "metaDescription": "Everence offers Forensic Malware Investigation Services in India, specializing in malware analysis, cyber threat investigations, incident response, and digital evidence collection.",
+  "metaKeywords": "Forensic Malware Investigation Services in India, Malware Investigation Services in India",
+  "canonicalTag": "https://everence.com/services/forensic-malware-investigation",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://everence.com/#organization",
+        "name": "Everence",
+        "url": "https://everence.com/",
+        "logo": "https://everence.io/homebg/logo.png",
+        "telephone": "+91 9920314006",
+        "sameAs": [
+          "https://in.linkedin.com/company/everence-technologies"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "508, The Summit Business Park, Andheri (East)",
+          "addressLocality": "Mumbai",
+          "postalCode": "400093",
+          "addressCountry": "IN"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://everence.com/services/forensic-malware-investigation#webpage",
+        "url": "https://everence.com/services/forensic-malware-investigation",
+        "name": "Forensic Malware Investigation",
+        "about": {
+          "@id": "https://everence.com/services/forensic-malware-investigation#service"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://everence.com/services/forensic-malware-investigation#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://everence.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://everence.com/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Forensic Malware Investigation",
+            "item": "https://everence.com/services/forensic-malware-investigation"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://everence.com/services/forensic-malware-investigation#service",
+        "name": "Forensic Malware Investigation",
+        "url": "https://everence.com/services/forensic-malware-investigation",
+        "description": "DFIR services providing controlled response and evidence preservation during cyber incidents.",
+        "provider": {
+          "@id": "https://everence.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "India"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://everence.com/services/forensic-malware-investigation#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is forensic malware investigation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Forensic malware investigation is the process of analyzing malicious software to identify its origin, behavior, and impact on systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is cyber forensic investigation important for businesses in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It helps detect threats, minimize financial losses, ensure compliance, and collect legal evidence."
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+  "digital-forensic-company-in-india": {
+  "pageUrl": "https://everence.com/services/digital-forensic-company-in-india",
+  "metaTitle": "Digital Forensic Services Company in India ",
+  "metaDescription": "Everence is a leading Digital Forensic Services Company in India, offering digital evidence collection, cyber investigations, forensic analysis, and incident response solutions.",
+  "metaKeywords": "Digital Forensic Services Company in India , Digital Forensic Company in India",
+  "canonicalTag": "https://everence.com/services/digital-forensic-company-in-india",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://everence.com/#organization",
+        "name": "Everence",
+        "url": "https://everence.com/",
+        "logo": "https://everence.io/homebg/logo.png",
+        "telephone": "+91 9920314006",
+        "sameAs": [
+          "https://in.linkedin.com/company/everence-technologies"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "508, The Summit Business Park, Andheri (East)",
+          "addressLocality": "Mumbai",
+          "postalCode": "400093",
+          "addressCountry": "IN"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://everence.com/services/forensic-malware-investigation#webpage",
+        "url": "https://everence.com/services/forensic-malware-investigation",
+        "name": "Forensic Malware Investigation",
+        "about": {
+          "@id": "https://everence.com/services/forensic-malware-investigation#service"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://everence.com/services/forensic-malware-investigation#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://everence.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://everence.com/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Forensic Malware Investigation",
+            "item": "https://everence.com/services/forensic-malware-investigation"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://everence.com/services/forensic-malware-investigation#service",
+        "name": "Forensic Malware Investigation",
+        "url": "https://everence.com/services/forensic-malware-investigation",
+        "description": "DFIR services providing controlled response and evidence preservation during cyber incidents.",
+        "provider": {
+          "@id": "https://everence.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "India"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://everence.com/services/forensic-malware-investigation#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is forensic malware investigation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Forensic malware investigation is the process of analyzing malicious software to identify its origin, behavior, and impact on systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is cyber forensic investigation important for businesses in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It helps detect threats, minimize financial losses, ensure compliance, and collect legal evidence."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+,
+  "cybersecurity-company-in-india": {
+  "pageUrl": "https://everence.com/services/cybersecurity-company-in-india",
+  "metaTitle": "Cybersecurity Company in India | Ethical Hacking Services in India",
+  "metaDescription": "Everence is a leading Cybersecurity Company in India, providing Ethical Hacking Services, penetration testing, vulnerability assessments, and proactive cyber threat protection.",
+  "metaKeywords": "cyber security service providers in india , Ethical Hacking Services in India, cyber security company in india",
+  "canonicalTag": "https://everence.com/services/cybersecurity-company-in-india",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://everence.com/#organization",
+        "name": "Everence",
+        "url": "https://everence.com/",
+        "logo": "https://everence.io/homebg/logo.png",
+        "telephone": "+91 9920314006",
+        "sameAs": [
+          "https://in.linkedin.com/company/everence-technologies"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "508, The Summit Business Park, Andheri (East)",
+          "addressLocality": "Mumbai",
+          "postalCode": "400093",
+          "addressCountry": "IN"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://everence.com/services/forensic-malware-investigation#webpage",
+        "url": "https://everence.com/services/forensic-malware-investigation",
+        "name": "Forensic Malware Investigation",
+        "about": {
+          "@id": "https://everence.com/services/forensic-malware-investigation#service"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://everence.com/services/forensic-malware-investigation#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://everence.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://everence.com/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Forensic Malware Investigation",
+            "item": "https://everence.com/services/forensic-malware-investigation"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://everence.com/services/forensic-malware-investigation#service",
+        "name": "Forensic Malware Investigation",
+        "url": "https://everence.com/services/forensic-malware-investigation",
+        "description": "DFIR services providing controlled response and evidence preservation during cyber incidents.",
+        "provider": {
+          "@id": "https://everence.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "India"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://everence.com/services/forensic-malware-investigation#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is forensic malware investigation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Forensic malware investigation is the process of analyzing malicious software to identify its origin, behavior, and impact on systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is cyber forensic investigation important for businesses in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It helps detect threats, minimize financial losses, ensure compliance, and collect legal evidence."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+}
