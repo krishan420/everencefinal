@@ -1,5 +1,5 @@
 const config = {
-  API: "https://everence.io/api/",
+  API: "https://api.everence.io",
 };
 
 export default config;
