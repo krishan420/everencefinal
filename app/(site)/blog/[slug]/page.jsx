@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation";
 import BlogDetail from "@/components/Blogs/BlogDetail";
+import { getBlogSeo } from "@/lib/blogSeoUtils";
 
 const WORDPRESS_API =
   "https://blog.everence.io/wp-json/wp/v2";
 
-const SITE_URL = "https://everence.io";
+const SITE_URL =
+  "https://everence.io";
 
 export const revalidate = 3600;
 
@@ -13,19 +15,21 @@ export const revalidate = 3600;
 ========================================================= */
 
 /**
- * Remove HTML from WordPress rendered text.
+ * Remove HTML and decode common WordPress entities.
  */
 function stripHtml(value = "") {
-  return value
+  return String(value)
     .replace(/<[^>]*>/g, "")
     .replace(/&nbsp;/gi, " ")
     .replace(/&amp;/gi, "&")
     .replace(/&quot;/gi, '"')
     .replace(/&#039;/gi, "'")
+    .replace(/&#39;/gi, "'")
     .replace(/&#8217;/gi, "'")
     .replace(/&#8216;/gi, "'")
     .replace(/&#8220;/gi, '"')
     .replace(/&#8221;/gi, '"')
+    .replace(/&#038;/gi, "&")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -38,16 +42,24 @@ function getFeaturedImage(post) {
     post?._embedded?.["wp:featuredmedia"]?.[0];
 
   return {
-    url: media?.source_url || null,
+    url:
+      media?.source_url ||
+      null,
 
     alt:
       media?.alt_text ||
-      stripHtml(post?.title?.rendered || "") ||
+      stripHtml(
+        post?.title?.rendered || ""
+      ) ||
       "Everence Blog",
 
-    width: media?.media_details?.width || null,
+    width:
+      media?.media_details?.width ||
+      null,
 
-    height: media?.media_details?.height || null,
+    height:
+      media?.media_details?.height ||
+      null,
   };
 }
 
@@ -77,14 +89,34 @@ function getCategories(post) {
 }
 
 /**
- * Get Yoast SEO data when available.
+ * Get Yoast SEO data.
  */
 function getYoastData(post) {
   return post?.yoast_head_json || null;
 }
 
+/**
+ * Convert keywords into an array.
+ */
+function normalizeKeywords(keywords) {
+  if (Array.isArray(keywords)) {
+    return keywords
+      .map((keyword) => String(keyword).trim())
+      .filter(Boolean);
+  }
+
+  if (typeof keywords === "string") {
+    return keywords
+      .split(",")
+      .map((keyword) => keyword.trim())
+      .filter(Boolean);
+  }
+
+  return [];
+}
+
 /* =========================================================
-   GET BLOG
+   GET BLOG FROM WORDPRESS
 ========================================================= */
 
 async function getBlog(slug) {
@@ -126,7 +158,8 @@ async function getBlog(slug) {
       return null;
     }
 
-    const posts = await response.json();
+    const posts =
+      await response.json();
 
     if (
       !Array.isArray(posts) ||
@@ -148,13 +181,15 @@ async function getBlog(slug) {
        BASIC DATA
     ----------------------------------------- */
 
-    const title = stripHtml(
-      post?.title?.rendered || ""
-    );
+    const title =
+      stripHtml(
+        post?.title?.rendered || ""
+      );
 
-    const description = stripHtml(
-      post?.excerpt?.rendered || ""
-    );
+    const description =
+      stripHtml(
+        post?.excerpt?.rendered || ""
+      );
 
     const content =
       post?.content?.rendered || "";
@@ -204,6 +239,11 @@ async function getBlog(slug) {
         yoast?.description || ""
       );
 
+    const yoastKeywords =
+      normalizeKeywords(
+        yoast?.keywords || ""
+      );
+
     /* -----------------------------------------
        SEO IMAGE
     ----------------------------------------- */
@@ -216,6 +256,48 @@ async function getBlog(slug) {
       featuredImage.url ||
       yoastImage ||
       null;
+
+    /* -----------------------------------------
+       CUSTOM BLOG SEO
+    ----------------------------------------- */
+
+    const customSeo =
+      getBlogSeo(postSlug);
+
+    const customKeywords =
+      normalizeKeywords(
+        customSeo?.keywords
+      );
+
+    /* -----------------------------------------
+       FINAL SEO VALUES
+       
+       Priority:
+       1. blogs-seo.json
+       2. WordPress Yoast
+       3. WordPress content
+    ----------------------------------------- */
+
+    const finalMetaTitle =
+      customSeo?.metaTitle ||
+      yoastTitle ||
+      title ||
+      "Everence Blog";
+
+    const finalMetaDescription =
+      customSeo?.metaDescription ||
+      yoastDescription ||
+      description ||
+      `Read ${title} on Everence.`;
+
+    const finalKeywords =
+      customKeywords.length > 0
+        ? customKeywords
+        : yoastKeywords;
+
+    const finalCanonical =
+      customSeo?.canonicalTag ||
+      `${SITE_URL}/blog/${postSlug}`;
 
     /* -----------------------------------------
        RETURN NORMALIZED DATA
@@ -233,9 +315,11 @@ async function getBlog(slug) {
       description,
 
       excerpt:
-        post?.excerpt?.rendered || "",
+        post?.excerpt?.rendered ||
+        "",
 
-      image: finalImage,
+      image:
+        finalImage,
 
       image_alt:
         featuredImage.alt ||
@@ -249,33 +333,43 @@ async function getBlog(slug) {
       categories,
 
       date:
-        post?.date || null,
+        post?.date ||
+        null,
 
       modified:
-        post?.modified || null,
+        post?.modified ||
+        null,
 
       link:
         `${SITE_URL}/blog/${postSlug}`,
 
-      /* SEO */
+      /* -----------------------------------------
+         SEO
+      ----------------------------------------- */
 
       meta_title:
-        yoastTitle ||
-        title ||
-        "Everence Blog",
+        finalMetaTitle,
 
       meta_description:
-        yoastDescription ||
-        description ||
-        `Read ${title} on Everence.`,
+        finalMetaDescription,
 
       keywords:
-        yoast?.keywords || "",
+        finalKeywords,
 
-      /* Original WordPress object */
+      canonical:
+        finalCanonical,
 
-      wordpress: post,
+      seo:
+        customSeo,
+
+      /* -----------------------------------------
+         ORIGINAL WORDPRESS OBJECT
+      ----------------------------------------- */
+
+      wordpress:
+        post,
     };
+
   } catch (error) {
     console.error(
       "Failed to fetch WordPress blog:",
@@ -287,15 +381,17 @@ async function getBlog(slug) {
 }
 
 /* =========================================================
-   METADATA
+   DYNAMIC METADATA
 ========================================================= */
 
 export async function generateMetadata({
   params,
 }) {
-  const { slug } = await params;
+  const { slug } =
+    await params;
 
-  const post = await getBlog(slug);
+  const post =
+    await getBlog(slug);
 
   /* -----------------------------------------
      BLOG NOT FOUND
@@ -303,7 +399,8 @@ export async function generateMetadata({
 
   if (!post) {
     return {
-      title: "Blog Not Found | Everence",
+      title:
+        "Blog Not Found | Everence",
 
       description:
         "The requested Everence blog could not be found.",
@@ -326,27 +423,54 @@ export async function generateMetadata({
     `Read ${post.title} on Everence.`;
 
   const canonical =
+    post.canonical ||
     `${SITE_URL}/blog/${post.slug}`;
 
+  const keywords =
+    normalizeKeywords(
+      post.keywords
+    );
+
   const metadata = {
+    /* =====================================
+       BASIC SEO
+    ===================================== */
+
     title,
 
     description,
+
+    keywords,
+
+    /* =====================================
+       CANONICAL
+    ===================================== */
 
     alternates: {
       canonical,
     },
 
+    /* =====================================
+       ROBOTS
+    ===================================== */
+
     robots: {
       index: true,
       follow: true,
 
-      "max-image-preview": "large",
+      "max-image-preview":
+        "large",
 
-      "max-snippet": -1,
+      "max-snippet":
+        -1,
 
-      "max-video-preview": -1,
+      "max-video-preview":
+        -1,
     },
+
+    /* =====================================
+       OPEN GRAPH
+    ===================================== */
 
     openGraph: {
       title,
@@ -355,15 +479,20 @@ export async function generateMetadata({
 
       url: canonical,
 
-      siteName: "Everence",
+      siteName:
+        "Everence",
 
       type: "article",
 
+      locale: "en_IN",
+
       publishedTime:
-        post.date || undefined,
+        post.date ||
+        undefined,
 
       modifiedTime:
-        post.modified || undefined,
+        post.modified ||
+        undefined,
 
       authors:
         post.author
@@ -373,106 +502,206 @@ export async function generateMetadata({
       images: post.image
         ? [
             {
-              url: post.image,
+              url:
+                post.image,
 
               alt:
                 post.image_alt ||
                 title,
 
-              width: 1200,
+              width:
+                1200,
 
-              height: 630,
+              height:
+                630,
             },
           ]
         : [],
     },
 
+    /* =====================================
+       TWITTER
+    ===================================== */
+
     twitter: {
-      card: "summary_large_image",
+      card:
+        "summary_large_image",
 
       title,
 
       description,
 
-      images: post.image
-        ? [post.image]
-        : [],
+      images:
+        post.image
+          ? [post.image]
+          : [],
     },
+
+    /* =====================================
+       OTHER
+    ===================================== */
+
+    authors: [
+      {
+        name:
+          post.author ||
+          "Everence Technologies",
+      },
+    ],
+
+    creator:
+      post.author ||
+      "Everence Technologies",
+
+    publisher:
+      "Everence Technologies",
+
+    category:
+      post.category ||
+      "Cybersecurity",
   };
-
-  /* -----------------------------------------
-     KEYWORDS
-  ----------------------------------------- */
-
-  if (post.keywords) {
-    metadata.keywords =
-      post.keywords;
-  }
 
   return metadata;
 }
 
 /* =========================================================
-   ARTICLE SCHEMA
+   BLOG POSTING SCHEMA
 ========================================================= */
 
 function generateArticleSchema(post) {
   const canonical =
+    post.canonical ||
     `${SITE_URL}/blog/${post.slug}`;
+
+  const customSchema =
+    post?.seo?.schema || {};
 
   const schema = {
     "@context":
       "https://schema.org",
 
     "@type":
-      "Article",
+      customSchema?.["@type"] ||
+      "BlogPosting",
 
     "@id":
-      `${canonical}#article`,
+      `${canonical}#blogposting`,
 
-    url: canonical,
+    url:
+      canonical,
 
     mainEntityOfPage: {
-      "@type": "WebPage",
+      "@type":
+        "WebPage",
 
-      "@id": canonical,
+      "@id":
+        canonical,
     },
 
     headline:
+      customSchema?.headline ||
+      post.meta_title ||
       post.title,
 
     description:
+      customSchema?.description ||
+      post.meta_description ||
       post.description ||
       `Read ${post.title} on Everence.`,
 
     datePublished:
-      post.date || undefined,
+      post.date ||
+      undefined,
 
     dateModified:
       post.modified ||
       post.date ||
       undefined,
 
-    author: {
-      "@type": "Person",
+    /* =====================================
+       AUTHOR
+    ===================================== */
 
-      name:
-        post.author ||
-        "Everence",
-    },
+    author:
+      customSchema?.author
+        ? {
+            "@type":
+              customSchema.author["@type"] ||
+              "Organization",
 
-    publisher: {
-      "@type":
-        "Organization",
+            name:
+              customSchema.author.name ||
+              "Everence Technologies",
 
-      name: "Everence",
+            url:
+              customSchema.author.url ||
+              SITE_URL,
+          }
+        : {
+            "@type":
+              "Organization",
 
-      url: SITE_URL,
-    },
+            name:
+              "Everence Technologies",
+
+            url:
+              SITE_URL,
+          },
+
+    /* =====================================
+       PUBLISHER
+    ===================================== */
+
+    publisher:
+      customSchema?.publisher
+        ? {
+            "@type":
+              customSchema.publisher["@type"] ||
+              "Organization",
+
+            name:
+              customSchema.publisher.name ||
+              "Everence Technologies",
+
+            url:
+              customSchema.publisher.url ||
+              SITE_URL,
+          }
+        : {
+            "@type":
+              "Organization",
+
+            name:
+              "Everence Technologies",
+
+            url:
+              SITE_URL,
+
+            logo: {
+              "@type":
+                "ImageObject",
+
+              url:
+                `${SITE_URL}/logo.png`,
+            },
+          },
+
+    /* =====================================
+       ARTICLE SECTION
+    ===================================== */
 
     articleSection:
       post.category ||
       "Insights",
+
+    /* =====================================
+       KEYWORDS
+    ===================================== */
+
+    keywords:
+      normalizeKeywords(
+        post.keywords
+      ).join(", "),
   };
 
   /* -----------------------------------------
@@ -481,9 +710,48 @@ function generateArticleSchema(post) {
 
   if (post.image) {
     schema.image = [
-      post.image,
+      {
+        "@type":
+          "ImageObject",
+
+        url:
+          post.image,
+
+        width:
+          1200,
+
+        height:
+          630,
+
+        caption:
+          post.image_alt ||
+          post.title,
+      },
     ];
   }
+
+  /* -----------------------------------------
+     MERGE EXTRA CUSTOM SCHEMA DATA
+  ----------------------------------------- */
+
+  const allowedCustomFields = [
+    "about",
+    "mentions",
+    "isPartOf",
+    "inLanguage",
+  ];
+
+  allowedCustomFields.forEach(
+    (field) => {
+      if (
+        customSchema?.[field] !==
+        undefined
+      ) {
+        schema[field] =
+          customSchema[field];
+      }
+    }
+  );
 
   return schema;
 }
@@ -495,7 +763,8 @@ function generateArticleSchema(post) {
 export default async function Page({
   params,
 }) {
-  const { slug } = await params;
+  const { slug } =
+    await params;
 
   const post =
     await getBlog(slug);
@@ -509,16 +778,18 @@ export default async function Page({
   }
 
   /* -----------------------------------------
-     ARTICLE SCHEMA
+     BLOG SCHEMA
   ----------------------------------------- */
 
   const articleSchema =
-    generateArticleSchema(post);
+    generateArticleSchema(
+      post
+    );
 
   return (
     <>
       {/* =====================================
-          ARTICLE JSON-LD
+          BLOG POSTING JSON-LD
       ===================================== */}
 
       <script
@@ -532,7 +803,7 @@ export default async function Page({
       />
 
       {/* =====================================
-          EXISTING BLOG DESIGN
+          BLOG DETAIL
       ===================================== */}
 
       <BlogDetail

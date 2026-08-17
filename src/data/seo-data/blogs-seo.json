@@ -1,18 +1,264 @@
 {
-  "how-digital-forensics-prevents-breaches": {
-    "metaTitle": "How Digital Forensics Prevents Cyber Breaches | Everence",
-    "metaDescription": "Learn how digital forensic investigations help organizations detect, analyze, and prevent cyber breaches.",
-    "canonicalTag": "https://everence.com/blogs/how-digital-forensics-prevents-breaches",
+  "top-cybersecurity-threats-businesses-must-prepare-for-in-2026": {
+    "metaTitle": "Top Cybersecurity Threats Businesses Must Prepare for in 2026 ",
+    "metaDescription": "Discover the top cybersecurity threats in 2026, including AI-powered attacks, ransomware, phishing, and supply chain risks. Learn how your business can stay protected.",
+    "keywords": [
+      "cybersecurity threats 2026",
+      "cybersecurity threats",
+      "AI-powered attacks",
+      "ransomware",
+      "next-generation phishing",
+      "supply chain vulnerabilities",
+      "cybersecurity for businesses",
+      "cyber risk management",
+      "digital forensics",
+      "cybersecurity solutions"
+    ],
+    "canonicalTag": "https://everence.io/blog/top-cybersecurity-threats-businesses-must-prepare-for-in-2026",
     "schema": {
       "@type": "BlogPosting",
-      "headline": "How Digital Forensics Prevents Cyber Breaches",
+      "headline": "Top Cybersecurity Threats Businesses Must Prepare for in 2026",
+      "description": "Discover the top cybersecurity threats businesses must prepare for in 2026, including AI attacks, ransomware, phishing and supply chain risks.",
       "author": {
         "@type": "Organization",
-        "name": "Everence"
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Everence"
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      }
+    }
+  },
+   "what-is-digital-forensics-how-it-helps-investigate-cybercrime": {
+    "metaTitle": "What Is Digital Forensics? How It Helps Investigate Cybercrime",
+    "metaDescription": "Learn what digital forensics is and how it helps investigate cybercrime, data breaches, and insider threats. Discover the forensic process, key techniques, and why businesses need cyber forensic investigations today.",
+    "keywords": [
+      
+    ],
+    "canonicalTag": "https://everence.io/blog/what-is-digital-forensics-how-it-helps-investigate-cybercrime",
+    "schema": {
+      "@type": "BlogPosting",
+      "headline": "What Is Digital Forensics? How It Helps Investigate Cybercrime | Everence",
+      "description": "Learn what digital forensics is and how it helps investigate cybercrime, data breaches, and insider threats. Discover the forensic process, key techniques, and why businesses need cyber forensic investigations today.",
+      "author": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      }
+    }
+  },
+   "cybersecurity-trends-india-2026": {
+    "metaTitle": "Cybersecurity Trends in India 2026: What Business Must Know",
+    "metaDescription": "Explore the top cybersecurity trends in India for 2026, including AI-driven threats, supply chain attacks, and DPDP compliance. Learn how businesses can stay secure with forensic readiness.",
+    "keywords": [
+      
+    ],
+    "canonicalTag": "https://everence.io/blog/cybersecurity-trends-india-2026",
+    "schema": {
+      "@type": "BlogPosting",
+      "headline": "Cybersecurity Trends in India 2026: What Business Must Know | Everence",
+      "description": "Explore the top cybersecurity trends in India for 2026, including AI-driven threats, supply chain attacks, and DPDP compliance. Learn how businesses can stay secure with forensic readiness.",
+      "author": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      }
+    }
+  },
+   "top-cybersecurity-services-in-india-complete-guide-for-businesses": {
+    "metaTitle": "Top Cybersecurity Services in India: Complete Guide For Business",
+    "metaDescription": "Discover the top cybersecurity services in India, from DFIR to network security and compliance. Learn how to choose the right cybersecurity partner for your business.",
+    "keywords": [
+      
+    ],
+    "canonicalTag": "https://everence.io/blog/top-cybersecurity-services-in-india-complete-guide-for-businesses",
+    "schema": {
+      "@type": "BlogPosting",
+      "headline": "Top Cybersecurity Services in India: Complete Guide For Business",
+      "description": "Discover the top cybersecurity services in India, from DFIR to network security and compliance. Learn how to choose the right cybersecurity partner for your business.",
+      "author": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      }
+    }
+  },
+   "the-rise-of-deepfake-fraud-in-india-how-to-detect-investigate-it": {
+    "metaTitle": "The Rise of Deepfake Fraud in India: How to Detect & Investigate It ",
+    "metaDescription": "Learn how deepfake fraud in India is impacting businesses and individuals. Discover deepfake detection methods, cyber forensic investigation techniques, AI scam prevention strategies, and how organisations can protect themselves from evolving digital threats with Everence. ",
+    "keywords": [
+     
+    ],
+    "canonicalTag": "https://everence.io/blog/the-rise-of-deepfake-fraud-in-india-how-to-detect-investigate-it",
+    "schema": {
+      "@type": "BlogPosting",
+      "headline": "The Rise of Deepfake Fraud in India: How to Detect & Investigate It",
+      "description": "Learn how deepfake fraud in India is impacting businesses and individuals. Discover deepfake detection methods, cyber forensic investigation techniques, AI scam prevention strategies, and how organisations can protect themselves from evolving digital threats with Everence. ",
+      "author": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      }
+    }
+  },
+   "upi-fraud-investigation-how-digital-forensics-recovers-your-money": {
+    "metaTitle": "UPI Fraud Investigation: How Digital Forensics Helps Recover Your Money  ",
+    "metaDescription": "Learn how digital forensics investigates UPI fraud in India, traces stolen transactions, preserves evidence, and improves money recovery chances. Discover expert insights on UPI scam investigation, cybercrime reporting, and digital payment fraud prevention with Everence.",
+    "keywords": [
+     
+    ],
+    "canonicalTag": "https://everence.io/blog/upi-fraud-investigation-how-digital-forensics-recovers-your-money",
+    "schema": {
+      "@type": "BlogPosting",
+      "headline": "UPI Fraud Investigation: How Digital Forensics Helps Recover Your Money",
+      "description": "Learn how digital forensics investigates UPI fraud in India, traces stolen transactions, preserves evidence, and improves money recovery chances.",
+      "author": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      }
+    }
+  },
+   "digital-forensics-in-financial-fraud-investigations-a-complete-guide": {
+    "metaTitle": "Digital Forensics in Financial Fraud Investigations: A Complete Guide  ",
+    "metaDescription": "Learn how digital forensics helps uncover financial fraud through forensic data analysis, cyber fraud investigation, evidence preservation, and court-admissible reporting for businesses in India.",
+    "keywords": [
+      
+    ],
+      "canonicalTag": "https://everence.io/blog/digital-forensics-in-financial-fraud-investigations-a-complete-guide",
+   "schema": {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.everence.io/blog/digital-forensics-in-financial-fraud-investigations-a-complete-guide"
+  },
+  "headline": "Digital Forensics in Financial Fraud Investigations A Complete Guide",
+  "description": "Learn how digital forensics helps uncover financial fraud through forensic data analysis, cyber fraud investigation, evidence preservation, and court-admissible reporting for businesses in India.",
+  "image": "https://everence.io/api/uploads/1782281747_digital%20forensics.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Everence Technologies",
+    "url": "https://www.everence.io/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Everence Technologies",
+    "url": "https://www.everence.io/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.everence.io/homebg/logo.png"
+    }
+  },
+  "datePublished": "2026-06-24",
+  "dateModified": "2026-06-24"
+}
+  },
+   "mobile-device-forensics-in-india-extracting-evidence-from-smartphones-legally": {
+    "metaTitle": "Mobile Device Forensics in India: Extracting Evidence from Smartphones Legally ",
+    "metaDescription": "Learn how mobile device forensics in India helps legally extract smartphone evidence, recover deleted data, preserve chain of custody, and ensure court-admissible digital evidence.",
+    "keywords": [
+    
+    ],
+    "canonicalTag": "https://everence.io/blog/mobile-device-forensics-in-india-extracting-evidence-from-smartphones-legally",
+    "schema": {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.everence.io/blog/mobile-device-forensics-in-india-extracting-evidence-from-smartphones-legally"
+  },
+  "headline": "Mobile Device Forensics in India Extracting Evidence from Smartphones Legally",
+  "description": "Learn how mobile device forensics in India helps legally extract smartphone evidence, recover deleted data, preserve chain of custody, and ensure court-admissible digital evidence.",
+  "image": "https://everence.io/api/uploads/1782284522_mobile%20device%20forensics.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Everence Technologies",
+    "url": "https://www.everence.io/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Everence Technologies",
+    "url": "https://www.everence.io/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.everence.io/homebg/logo.png"
+    }
+  },
+  "datePublished": "2026-06-24",
+  "dateModified": "2026-06-24"
+}
+  },
+   "business-email-compromise-bec-warning-signs-prevention": {
+    "metaTitle": "Business Email Compromise (BEC): Prevention Guide ",
+    "metaDescription": "Learn how to prevent Business Email Compromise (BEC) attacks with email security, MFA, employee awareness, and digital forensics from Everence experts. ",
+    "keywords": [
+      
+    ],
+    "canonicalTag": "business-email-compromise-bec-warning-signs-prevention ",
+    "schema": {
+      "@type": "BlogPosting",
+      "headline": "Business Email Compromise (BEC): Prevention Guide",
+      "description": "Learn how to prevent Business Email Compromise (BEC) attacks with email security, MFA, employee awareness, and digital forensics from Everence experts. ",
+      "author": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      }
+    }
+  },
+   "ransomware-attack-response-guide-for-businesses": {
+    "metaTitle": "Ransomware Attack Response Guide for Businesses ",
+    "metaDescription": "Learn the essential steps to respond to a ransomware attack, recover securely, preserve digital evidence, and strengthen cybersecurity with Everence. ",
+    "keywords": [
+      
+    ],
+    "canonicalTag": "https://everence.io/blog/ransomware-attack-response-guide-for-businesses",
+    "schema": {
+      "@type": "BlogPosting",
+      "headline": "Ransomware Attack Response Guide for Businesses",
+      "description": "Learn the essential steps to respond to a ransomware attack, recover securely, preserve digital evidence, and strengthen cybersecurity with Everence. ",
+      "author": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Everence Technologies",
+        "url": "https://everence.io"
       }
     }
   }

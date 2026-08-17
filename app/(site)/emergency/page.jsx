@@ -1,7 +1,7 @@
 import Emergency from "@/pages/Emergency";
 
 export const metadata = {
-  title: "Cyber Incident Emergency Response | Everence",
+  title: "Cyber Incident Emergency Response ",
   description:
     "Facing a cyber incident right now? Everence provides rapid incident response, evidence preservation, and forensic support to contain and recover from active cyber incidents.",
   alternates: {
