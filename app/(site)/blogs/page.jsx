@@ -19,7 +19,7 @@ const seo = getBlogListingSeo();
 export const metadata = {
   title:
     seo.title ||
-    "Digital Forensics & Cybersecurity Blogs | Everence",
+    "Digital Forensics & Cybersecurity Blogs ",
 
   description:
     seo.description ||
