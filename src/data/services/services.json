@@ -3408,7 +3408,10 @@
   "faqs": [
     {
       "question": "What is digital forensics?",
-     "answer": [
+     "answer": "Digital forensics is the process of identifying, collecting, preserving, analyzing, and presenting digital evidence from electronic devices and systems. It helps investigators determine how cyber incidents occurred, identify affected assets, and recover critical information. Digital forensics plays an essential role in cybercrime investigations, incident response, and legal proceedings. "},
+    {
+      "question": "Why are Digital Forensic Services important for businesses?",
+       "answer": [
       
         {
           "text": "Digital Forensic Services",
@@ -3416,11 +3419,7 @@
           "color": "text-[#ff6700]"
         },
         " are important because organizations face increasing risks from cyberattacks, insider threats, data breaches, and digital fraud. A forensic investigation helps determine how an incident occurred, identify affected systems, and uncover critical evidence. These insights support incident response, legal action, regulatory compliance, and the implementation of stronger security controls"
-      ] },
-    {
-      "question": "Why are Digital Forensic Services important for businesses?",
-      "answer": "Digital Forensic Services are important because organizations face increasing risks from cyberattacks, insider threats, data breaches, and digital fraud. A forensic investigation helps determine how an incident occurred, identify affected systems, and uncover critical evidence. These insights support incident response, legal action, regulatory compliance, and the implementation of stronger security controls."
-    },
+      ]},
     {
       "question": "What services are included in Digital Forensic Investigations?",
       "answer": "Digital Forensic Investigations may include device forensics, mobile forensics, malware analysis, eDiscovery, email investigations, cloud forensics, fraud investigations, incident response, and forensic readiness assessments. These services help organizations recover evidence, analyze digital activities, and determine the cause and impact of security incidents. A comprehensive approach ensures accurate and reliable investigative outcomes."
