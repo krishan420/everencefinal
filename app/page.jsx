@@ -3,7 +3,7 @@ import IntroLanding from "@/pages/IntroLanding";
 export const metadata = {
   title: "Digital Forensic & Cybersecurity Services Company in India ",
   description:
-    "Everence is a leading Digital Forensic and Cybersecurity Company in India, offering cyber investigations, incident response, compliance, due diligence, and risk management services.",
+    "Everence is a digital forensics and cybersecurity Services company in India providing cyber incident response, data protection, forensic investigations and risk intelligence services.",
   keywords:
     "Digital Forensic and Cyber Security company in India",
   alternates: {
