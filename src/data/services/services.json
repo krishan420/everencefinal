@@ -111,6 +111,7 @@
         
         "text": "Map internet-facing systems and digital assets that may still be visible to attackers.",
         "link": "/services/digital-forensic-assessments",
+         "linkText": "digital assets",
         "color": "text-orange-500"
         
       },
@@ -205,6 +206,11 @@
       {
         "question": "What does a Digital Forensic Assessment include?  ",
         "answer": "A Digital Forensic Assessment includes evidence collection, forensic imaging, log analysis, malware investigation, network monitoring, cloud forensics, and detailed reporting. Specialists examine digital systems to identify unauthorized activities and reconstruct events leading to an incident. The process follows strict evidence-handling procedures to maintain data integrity, ensuring findings can support internal investigations, compliance audits, or legal proceedings when necessary. "
+      },
+
+       {
+        "question": "What is the difference between a cybersecurity assessment and a digital forensic assessment? ",
+        "answer": "A cybersecurity assessment identifies vulnerabilities and security weaknesses before an incident occurs, while a Digital Forensic Assessment investigates events after a security incident has taken place. Cybersecurity assessments focus on prevention and risk reduction, whereas forensic assessments focus on evidence collection, incident analysis, and determining the cause and impact of an attack. Both services are essential for a comprehensive security strategy. "
       },
       {
         "question": "How do Digital Forensic Assessments help after a data breach?  ",
@@ -1357,7 +1363,7 @@
 
   "faqs": [
     {
-      "question": "When should digital forensic incident response begin?",
+      "question": "What is Digital Forensic Incident Response?",
     "answer": [
       {
         "text": "Digital Forensic Incident Response",
@@ -1425,9 +1431,14 @@
     "title": "Prepared People Make Better Decisions Under Pressure",
     "description": [
   "In most incidents, technology is not the first thing to fail. People hesitate, misunderstand signals, or are unsure who should act.  ",
+  
   {
-    "text": "Everence cybersecurity training for employees' services in India",
-    "link": "https://www.everence.io/services/cybersecurity-company-in-india",
+    "text": "Everence ",
+    "link": "https://www.everence.io/",
+    "color": "text-[#ff6700]"
+  },{
+    "text": " cybersecurity training for employees' services in India",
+    "link": "https://www.everence.io/cybersecurity-company-in-india",
     "color": "text-[#ff6700]"
   },
   " helps organisations prepare employees, technical teams, and leadership to recognise digital risk and respond with clarity when situations are unclear. "
@@ -2031,7 +2042,7 @@
 
   "faqs": [
     {
-      "question": "What is e-discovery and how does it work in India?",
+      "question": "What is e-Discovery?",
      "answer": [
       {
         "text": "What is e-Discovery?",
@@ -3011,7 +3022,7 @@
     "descriptionF": [
    {
     "text": "Everence",
-    "link": "https://everence.io/home",
+    "link": "https://www.everence.io/",
     "color": "text-[#ff6700]"
   },
   " with ",
@@ -3282,7 +3293,7 @@
       {
         "icon": "evidence",
         "title": "Evidence Collection",
-        "link": "https://www.everence.io/cybersecurity-company-in-india",
+        "link": "https://www.everence.io/services/cybersecurity-company-in-india",
         "description": "Identify, preserve, and secure digital evidence while maintaining its integrity and admissibility."
       },
       {
@@ -3397,8 +3408,15 @@
   "faqs": [
     {
       "question": "What is digital forensics?",
-      "answer": "Digital forensics is the process of identifying, collecting, preserving, analyzing, and presenting digital evidence from electronic devices and systems. It helps investigators determine how cyber incidents occurred, identify affected assets, and recover critical information. Digital forensics plays an essential role in cybercrime investigations, incident response, and legal proceedings."
-    },
+     "answer": [
+      
+        {
+          "text": "Digital Forensic Services",
+          "link": "https://www.everence.io/services/digital-forensic-company-in-india",
+          "color": "text-[#ff6700]"
+        },
+        " are important because organizations face increasing risks from cyberattacks, insider threats, data breaches, and digital fraud. A forensic investigation helps determine how an incident occurred, identify affected systems, and uncover critical evidence. These insights support incident response, legal action, regulatory compliance, and the implementation of stronger security controls"
+      ] },
     {
       "question": "Why are Digital Forensic Services important for businesses?",
       "answer": "Digital Forensic Services are important because organizations face increasing risks from cyberattacks, insider threats, data breaches, and digital fraud. A forensic investigation helps determine how an incident occurred, identify affected systems, and uncover critical evidence. These insights support incident response, legal action, regulatory compliance, and the implementation of stronger security controls."
@@ -3433,15 +3451,7 @@
     },
     {
       "question": "What makes Everence a trusted Digital Forensic Company in India?",
-      "answer": [
-        "Everence delivers comprehensive ",
-        {
-          "text": "Digital Forensic Services in India",
-          "link": "https://www.everence.io/services/digital-forensic-company-in-india",
-          "color": "text-[#ff6700]"
-        },
-        " that help organizations investigate cyber incidents, recover digital evidence, and uncover critical facts. Our team combines forensic expertise, advanced investigative tools, and industry-recognized methodologies to provide accurate and defensible findings. Organizations trust Everence for rapid response, confidentiality, technical excellence, and actionable insights that support legal, regulatory, and business objectives."
-      ]
+      "answer": "Everence delivers comprehensive Digital Forensic Services in India that help organizations investigate cyber incidents, recover digital evidence, and uncover critical facts. Our team combines forensic expertise, advanced investigative tools, and industry-recognized methodologies to provide accurate and defensible findings. Organizations trust Everence for rapid response, confidentiality, technical excellence, and actionable insights that support legal, regulatory, and business objectives."
     }
   ],
 

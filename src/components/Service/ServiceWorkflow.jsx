@@ -53,34 +53,32 @@ export default function ServiceWorkflow({ data }) {
           BACKGROUND IMAGE
       ====================================================== */}
 
-      {background?.type === "image" &&
-        background?.src && (
-          <div
-            aria-hidden="true"
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{
-              backgroundImage: `url("${background.src}")`,
-            }}
-          />
-        )}
+      {background?.type === "image" && background?.src && (
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url("${background.src}")`,
+          }}
+        />
+      )}
 
       {/* =====================================================
           BACKGROUND VIDEO
       ====================================================== */}
 
-      {background?.type === "video" &&
-        background?.src && (
-          <video
-            aria-hidden="true"
-            className="absolute inset-0 h-full w-full object-cover"
-            src={background.src}
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-          />
-        )}
+      {background?.type === "video" && background?.src && (
+        <video
+          aria-hidden="true"
+          className="absolute inset-0 h-full w-full object-cover"
+          src={background.src}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+        />
+      )}
 
       {/* =====================================================
           BACKGROUND OVERLAY
@@ -190,15 +188,11 @@ function TimelineItem({
 }) {
   const isLeft = index % 2 === 0;
 
-  const start =
-    total > 0 ? index / total : 0;
+  const start = total > 0 ? index / total : 0;
 
   const end =
     total > 0
-      ? Math.min(
-          (index + 0.25) / total,
-          1
-        )
+      ? Math.min((index + 0.25) / total, 1)
       : 1;
 
   const dotColor = useTransform(
@@ -254,7 +248,6 @@ function TimelineItem({
       {/* ================= DESKTOP LEFT ================= */}
 
       <div className="hidden w-1/2 justify-end pr-8 md:flex">
-
         {isLeft ? (
           <TimelineCard
             points={points}
@@ -266,13 +259,11 @@ function TimelineItem({
             align="right"
           />
         )}
-
       </div>
 
       {/* ================= DESKTOP RIGHT ================= */}
 
       <div className="hidden w-1/2 pl-8 md:flex">
-
         {!isLeft ? (
           <TimelineCard
             points={points}
@@ -284,7 +275,6 @@ function TimelineItem({
             align="left"
           />
         )}
-
       </div>
 
     </div>
@@ -326,7 +316,6 @@ function TimelineTitle({
         text-base
         font-semibold
         text-gray-900
-
         ${
           align === "right"
             ? "text-right"
@@ -399,7 +388,6 @@ function TimelineCard({
           border
           border-gray-200
           bg-white
-
           ${
             side === "left"
               ? "-right-[6px] border-b-0 border-l-0"
@@ -481,25 +469,32 @@ function TimelinePoints({
 
   return (
     <ul className="space-y-3 text-sm leading-relaxed text-gray-700">
-
       {points.map((point, index) => {
 
-        /* =============================================
-           FORMAT 1
+        /* =====================================================
+           SUPPORTED JSON FORMATS
+
+           FORMAT 1 — NORMAL TEXT
 
            "points": [
              "Normal text here"
            ]
 
-           FORMAT 2
+           FORMAT 2 — ENTIRE POINT LINK
 
-           "points": [
-             {
-               "text": "Digital Forensic Assessments",
-               "link": "/services/digital-forensic-assessments"
-             }
-           ]
-        ============================================== */
+           {
+             "text": "Digital Forensic Assessments",
+             "link": "/services/digital-forensic-assessments"
+           }
+
+           FORMAT 3 — ONE WORD / PHRASE LINK
+
+           {
+             "text": "Map internet-facing systems and digital assets.",
+             "link": "/services/digital-forensic-assessments",
+             "linkText": "systems"
+           }
+        ====================================================== */
 
         const isObject =
           point !== null &&
@@ -512,6 +507,10 @@ function TimelinePoints({
 
         const pointLink = isObject
           ? point?.link
+          : null;
+
+        const linkText = isObject
+          ? point?.linkText
           : null;
 
         return (
@@ -539,9 +538,22 @@ function TimelinePoints({
 
             <div className="min-w-0 flex-1">
 
-              {/* LINKED POINT */}
+              {/* =========================================
+                  ONE WORD / PHRASE LINK
+              ========================================== */}
 
-              {pointLink ? (
+              {pointLink && linkText ? (
+                <LinkedText
+                  text={pointText}
+                  linkText={linkText}
+                  href={pointLink}
+                />
+              ) : pointLink ? (
+
+                /* =========================================
+                   ENTIRE POINT LINK
+                ========================================== */
+
                 <Link
                   href={pointLink}
                   className="
@@ -554,9 +566,12 @@ function TimelinePoints({
                 >
                   <RichText content={pointText} />
                 </Link>
+
               ) : (
 
-                /* NORMAL / RICH TEXT POINT */
+                /* =========================================
+                   NORMAL TEXT
+                ========================================== */
 
                 <RichText content={pointText} />
 
@@ -567,7 +582,55 @@ function TimelinePoints({
           </li>
         );
       })}
-
     </ul>
+  );
+}
+
+/* =========================================================
+   LINK ONLY A WORD / PHRASE
+========================================================= */
+
+function LinkedText({
+  text,
+  linkText,
+  href,
+}) {
+  if (!text || !linkText || !href) {
+    return <RichText content={text || ""} />;
+  }
+
+  const index = text.indexOf(linkText);
+
+  /* If linkText isn't found, safely render normal text */
+  if (index === -1) {
+    return <RichText content={text} />;
+  }
+
+  const before = text.slice(0, index);
+  const linked = text.slice(
+    index,
+    index + linkText.length
+  );
+  const after = text.slice(
+    index + linkText.length
+  );
+
+  return (
+    <>
+      {before}
+      <Link
+        href={href}
+        className="
+          text-orange-500
+          transition-colors
+          duration-200
+          hover:text-orange-500
+          hover:underline
+        "
+      >
+        {linked}
+      </Link>
+      {after}
+    </>
   );
 }

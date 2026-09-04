@@ -56,7 +56,7 @@ const WhyUs = () => {
                     "Everence operates as both a ",
                     {
                       text: "Digital Forensic",
-                      link: "/services/digital-forensic-assessments",
+                      link: "/services/digital-forensic-company-in-india",
                       color: "text-[#F56C14]",
                     },
                     " and ",
