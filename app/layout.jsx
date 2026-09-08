@@ -1,4 +1,5 @@
 import "./globals.css";
+import Script from "next/script";
 import { campton, inter } from "@/lib/fonts";
 
 export const metadata = {
@@ -31,6 +32,22 @@ export default function RootLayout({ children }) {
     >
       <body suppressHydrationWarning>
         {children}
+
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-YS3PWDCQF9"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-YS3PWDCQF9');
+          `}
+        </Script>
       </body>
     </html>
   );
