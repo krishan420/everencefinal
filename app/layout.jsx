@@ -1,6 +1,7 @@
 import "./globals.css";
 import Script from "next/script";
 import { campton, inter } from "@/lib/fonts";
+import AutoReachUsPopup from "@/components/AutoReachUsPopup";
 
 export const metadata = {
   metadataBase: new URL("https://everence.io"),
@@ -32,6 +33,8 @@ export default function RootLayout({ children }) {
     >
       <body suppressHydrationWarning>
         {children}
+
+        <AutoReachUsPopup />
 
         {/* Google Analytics */}
         <Script

@@ -2,38 +2,72 @@
 
 import { useEffect, useRef, useState } from "react";
 import {
-  FaFacebookF,
-  FaInstagram,
-  FaYoutube,
+  FaLinkedinIn,
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
 } from "react-icons/fa";
 import Link from "next/link";
+
 import { SafeImage } from "../../lib/SafeImage";
 
-/* ================= SERVICES DATA ================= */
+/* =========================================================
+   SERVICES DATA
+========================================================= */
+
 const services = [
-  { label: "Digital Forensic Assessments", slug: "/services/digital-forensic-assessments"},
-  { label: "Due Diligence", slug: "/services/due-diligence"},
-  { label: "Digital Compliance", slug: "/services/digital-compliance" },
-  { label: "Forensic Malware Investigation", slug: "/services/forensic-malware-investigation" },
-  { label: "Training", slug: "/services/training" },
-  { label: "E-Discovery", slug: "/services/e-discovery" },
-  { label: "Device Forensics", slug: "/services/device-forensics" },
-  { label: "Social Media Monitoring", slug: "/services/social-media-monitoring" },
+  {
+    label: "Digital Forensic Assessments",
+    slug: "/services/digital-forensic-assessments",
+  },
+  {
+    label: "Due Diligence",
+    slug: "/services/due-diligence",
+  },
+  {
+    label: "Digital Compliance",
+    slug: "/services/digital-compliance",
+  },
+  {
+    label: "Forensic Malware Investigation",
+    slug: "/services/forensic-malware-investigation",
+  },
+  {
+    label: "Training",
+    slug: "/services/training",
+  },
+  {
+    label: "E-Discovery",
+    slug: "/services/e-discovery",
+  },
+  {
+    label: "Device Forensics",
+    slug: "/services/device-forensics",
+  },
+  {
+    label: "Social Media Monitoring",
+    slug: "/services/social-media-monitoring",
+  },
 ];
 
-/* ================= FOOTER SERVICES ================= */
+/* =========================================================
+   FOOTER SERVICES
+========================================================= */
+
 function FooterServices() {
   const ref = useRef(null);
   const [reveal, setReveal] = useState(false);
 
   useEffect(() => {
+    const element = ref.current;
+
+    if (!element) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setReveal(true);
+          observer.disconnect();
         }
       },
       {
@@ -42,40 +76,44 @@ function FooterServices() {
       }
     );
 
-    if (ref.current) observer.observe(ref.current);
+    observer.observe(element);
+
     return () => observer.disconnect();
   }, []);
 
   return (
     <div ref={ref}>
-      <h4 className="font-semibold mb-5 text-lg">Our Services</h4>
+      <h4 className="mb-5 text-lg font-semibold">Our Services</h4>
 
       <ul className="space-y-3 text-sm">
-        {/* FIRST 5 – ALWAYS VISIBLE */}
-        {services.slice(0, 5).map((service, index) => (
-          <li key={index}>
+        {/* FIRST 5 - ALWAYS VISIBLE */}
+        {services.slice(0, 5).map((service) => (
+          <li key={service.slug}>
             <Link
               href={service.slug}
-              className="hover:underline hover:text-black transition"
+              className="transition hover:text-black hover:underline"
             >
               {service.label}
             </Link>
           </li>
         ))}
 
-        {/* REMAINING – SCROLL REVEAL */}
-        {services.slice(5).map((service, index) => (
+        {/* REMAINING SERVICES - SCROLL REVEAL */}
+        {services.slice(5).map((service) => (
           <li
-            key={index}
-            className={`transition-all duration-500 ${
-              reveal
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-2"
-            }`}
+            key={service.slug}
+            className={`
+              transform transition-all duration-500
+              ${
+                reveal
+                  ? "translate-y-0 opacity-100"
+                  : "translate-y-2 opacity-0"
+              }
+            `}
           >
             <Link
               href={service.slug}
-              className="hover:underline hover:text-black transition"
+              className="transition hover:text-black hover:underline"
             >
               {service.label}
             </Link>
@@ -86,87 +124,227 @@ function FooterServices() {
   );
 }
 
-/* ================= MAIN FOOTER ================= */
+/* =========================================================
+   MAIN FOOTER
+========================================================= */
+
 const Footer = () => {
   return (
-    <footer className="relative bg-gradient-to-r from-orange-600 to-orange-500 text-white">
-      {/* Background pattern */}
+    <footer className="relative overflow-hidden bg-gradient-to-r from-orange-600 to-orange-500 text-white">
+      {/* =====================================================
+         BACKGROUND PATTERN
+      ===================================================== */}
+
       <div
-  className="absolute inset-0 opacity-5"
-  style={{
-    backgroundImage: "url('/icons/ftring.png')",
-  }}
-/>
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 opacity-5"
+        style={{
+          backgroundImage: "url('/icons/ftring.png')",
+          backgroundRepeat: "repeat",
+        }}
+      />
 
-      <div className="relative max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      {/* =====================================================
+         FOOTER CONTENT
+      ===================================================== */}
 
-          {/* BRAND */}
+      <div className="relative mx-auto max-w-7xl px-6 py-16">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
+          {/* =================================================
+             BRAND
+          ================================================= */}
+
           <div>
             <SafeImage
               src="/homebg/logof.png"
               alt="Everence"
-              className="h-10 mb-4"
+              className="mb-4 h-10 w-auto"
             />
-            <p className="text-sm leading-relaxed text-white/90 mb-6">
+
+            <p className="mb-6 max-w-sm text-sm leading-relaxed text-white/90">
               We safeguard your business against evolving cyber threats with
               proactive defense.
             </p>
 
-            <div className="flex gap-4">
-              <a href="#" className="hover:text-black transition">
-                <FaFacebookF />
-              </a>
-              <a href="#" className="hover:text-black transition">
-                <FaInstagram />
-              </a>
-              <a href="#" className="hover:text-black transition">
-                <FaYoutube />
-              </a>
-            </div>
+            {/* LINKEDIN */}
+            <a
+              href="https://in.linkedin.com/company/everence-technologies"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Everence Technologies on LinkedIn"
+              className="
+                inline-flex
+                h-10
+                w-10
+                items-center
+                justify-center
+                rounded-full
+                border
+                border-white/30
+                text-white
+                transition-all
+                duration-300
+                hover:-translate-y-1
+                hover:border-white
+                hover:bg-white
+                hover:text-orange-600
+              "
+            >
+              <FaLinkedinIn className="text-base" />
+            </a>
           </div>
 
-          {/* COMPANY */}
+          {/* =================================================
+             COMPANY
+          ================================================= */}
+
           <div>
-            <h4 className="font-semibold mb-5 text-lg">Company</h4>
+            <h4 className="mb-5 text-lg font-semibold">Company</h4>
+
             <ul className="space-y-3 text-sm">
-              <li><Link href="/" className="hover:underline">Home</Link></li>
-              <li><Link href="/about-us" className="hover:underline">About Us</Link></li>
-              <li><Link href="/industries" className="hover:underline">Industries</Link></li>
-              <li><Link href="/blogs" className="hover:underline">Blog</Link></li>
-              <li><Link href="/contact" className="hover:underline">Contact</Link></li>
-              <li><Link href="/events" className="hover:underline">Events</Link></li>
-              <li><Link href="/privacy" className="hover:underline">Privacy Policy </Link></li>
-              <li><Link href="/terms" className="hover:underline">Terms & Conditions </Link></li>
+              <li>
+                <Link
+                  href="/"
+                  className="transition hover:text-black hover:underline"
+                >
+                  Home
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/about-us"
+                  className="transition hover:text-black hover:underline"
+                >
+                  About Us
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/industries"
+                  className="transition hover:text-black hover:underline"
+                >
+                  Industries
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/blogs"
+                  className="transition hover:text-black hover:underline"
+                >
+                  Blog
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/contact"
+                  className="transition hover:text-black hover:underline"
+                >
+                  Contact
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/events"
+                  className="transition hover:text-black hover:underline"
+                >
+                  Events
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/privacy"
+                  className="transition hover:text-black hover:underline"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/terms"
+                  className="transition hover:text-black hover:underline"
+                >
+                  Terms & Conditions
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* SERVICES */}
+          {/* =================================================
+             SERVICES
+          ================================================= */}
+
           <FooterServices />
 
-          {/* CONTACT */}
+          {/* =================================================
+             CONTACT
+          ================================================= */}
+
           <div>
-            <h4 className="font-semibold mb-5 text-lg">Contact Us</h4>
+            <h4 className="mb-5 text-lg font-semibold">Contact Us</h4>
 
             <div className="space-y-4 text-sm text-white/90">
+              {/* ADDRESS */}
               <div className="flex gap-3">
-                <FaMapMarkerAlt className="mt-1" />
-                <p>
-                  508, The Summit Business Park,<br />
+                <FaMapMarkerAlt
+                  className="mt-1 shrink-0"
+                  aria-hidden="true"
+                />
+
+                <address className="not-italic leading-relaxed">
+                  508, The Summit Business Park,
+                  <br />
                   Andheri (East), Mumbai – 400093
-                </p>
+                </address>
               </div>
 
-              <div className="flex gap-3">
-                <FaPhoneAlt />
-                <a href="tel:+919920314006" className="hover:underline">
+              {/* PHONE */}
+              <div className="flex items-center gap-3">
+                <FaPhoneAlt
+                  className="shrink-0"
+                  aria-hidden="true"
+                />
+
+                <a
+                  href="tel:+919920314006"
+                  className="transition hover:text-black hover:underline"
+                >
                   +91 9920314006
                 </a>
               </div>
 
-              <div className="flex gap-3">
-                <FaEnvelope />
-                <a href="mailto:info@everence.io" className="hover:underline">
+               {/* PHONE */}
+              <div className="flex items-center gap-3">
+                <FaPhoneAlt
+                  className="shrink-0"
+                  aria-hidden="true"
+                />
+
+                <a
+                  href="tel:+918655412100"
+                  className="transition hover:text-black hover:underline"
+                >
+                  +91 86554 12100
+                </a>
+              </div>
+
+              {/* EMAIL */}
+              <div className="flex items-center gap-3">
+                <FaEnvelope
+                  className="shrink-0"
+                  aria-hidden="true"
+                />
+
+                <a
+                  href="mailto:info@everence.io"
+                  className="transition hover:text-black hover:underline"
+                >
                   info@everence.io
                 </a>
               </div>
@@ -174,21 +352,40 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* DIVIDER */}
+        {/* ===================================================
+           DIVIDER
+        =================================================== */}
+
         <div className="mt-14 border-t border-white/30" />
 
-        {/* FOOTER BOTTOM */}
-        <div className="mt-6 flex flex-col md:flex-row items-center justify-between text-sm text-white/90 gap-4">
-         
-<div className="text-center md:text-right">
-           
-          </div>
-          <div className="text-center">
-            © 2026 Everence.io
-          </div>
+        {/* ===================================================
+           FOOTER BOTTOM
+        =================================================== */}
 
-          <div className="text-center md:text-right">
-            Design & Developed by BricksMedia
+        <div
+          className="
+            mt-6
+            flex
+            flex-col
+            items-center
+            justify-center
+            gap-3
+            text-center
+            text-sm
+            text-white/90
+            md:flex-row
+            md:justify-between
+          "
+        >
+          {/* COPYRIGHT */}
+          <div>© 2026 Everence.io</div>
+
+          {/* DEVELOPMENT CREDIT */}
+          <div>
+            Design & Developed by{" "}
+            <span className="font-medium text-white">
+              BricksMedia
+            </span>
           </div>
         </div>
       </div>

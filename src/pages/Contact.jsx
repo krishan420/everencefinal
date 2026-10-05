@@ -535,7 +535,27 @@ export default function ContactUs() {
               </span>
 
             </a>
+{/* PHONE */}
 
+            <a
+              href="tel:+918655412100"
+              className="
+                flex
+                items-center
+                gap-3
+                text-gray-700
+                hover:text-orange-500
+                transition
+              "
+            >
+
+              <FiPhone className="flex-shrink-0" />
+
+              <span>
+                +91 86554 12100
+              </span>
+
+            </a>
 
             {/* ADDRESS */}
 
